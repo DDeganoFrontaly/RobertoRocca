@@ -1,0 +1,110 @@
+.modulo1{
+    width: 100%;
+    position: relative;
+    margin: 0 auto 170px;
+    #quienes_somos, #nuestroequipo{
+        position: absolute;
+        top: -150px;
+    }
+    &_img{
+        width: 100%;
+        min-height: 333px;
+        object-fit: cover;
+    }
+    &_gradient{
+        position: absolute;
+        top: -198px;
+        width: 100%;
+        height: 200px;
+        background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+        }
+    &_txt{
+        position: absolute;
+        background: white;
+        width: 100%;
+        top: 75%;
+        &_wrp{
+            padding: 0 20px;
+            margin-top: -25px;
+            z-index: 5;
+            position: relative;
+            height: 180px;
+            h1{
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 10px;
+                line-height: 28px;
+                max-width: 600px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 22px;
+                max-width: 600px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .modulo1{
+        margin-bottom: 100px;
+        margin-top: 0;
+        &_picture{
+            height: 656px;
+            &_mascara{  
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.30);
+            }
+        }
+        &_img{
+            height: 656px;
+        }
+        &_gradient{
+            display: none;
+        }
+        &_txt{
+            padding: 0 50px;
+            top: 42%;
+            background: none;
+            margin-top: 0;
+            &_wrp{
+                padding: 0;
+                height: auto;
+                h1{
+                    font-size: 44px;
+                    color: white;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                    line-height: 44px;
+                    max-width: 600px;
+                }
+                p{
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: white;
+                    font-weight: 500;
+                    max-width: 600px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1350px){
+    .modulo1{
+        &_txt{
+            padding: 0;
+            &_wrp{
+                max-width: 1250px;
+                margin: 0 auto;
+            }
+        }
+    }
+}

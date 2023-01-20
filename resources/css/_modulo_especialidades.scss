@@ -1,0 +1,247 @@
+.modulo_especialidades{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 ;
+    
+    &_titulo{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        padding:  0 20px;
+    }
+}
+
+.especialidades{
+    width: 100%;
+    img{
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+    }
+    &_info{
+        &_wrp{
+            position: relative;
+            background-color: #F93822;
+            margin: -160px 20px 50px;
+            border-radius: 10px;
+            padding: 30px 30px 20px;
+            
+            svg{
+                position: absolute;
+                top: 10px;
+                right: 0px;
+                height: 60px;
+            }
+        }
+        &_titulo{
+            font-size: 24px;
+            color: white;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        &_info{
+            color: white;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+        &_mas_info{
+            height: 35px;
+            border-radius: 16px;
+            padding: 5px 10px;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            width: 126px;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.2);
+            span{
+                font-size: 24px;
+                margin-left: 10px;
+                margin-top: -5px;
+            }
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+}
+
+.especialidades_2{
+    width: 100%;
+    img{
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+    }
+    &_info{
+        &_wrp{
+            position: relative;
+            background-color: #FF6720;
+            margin: -160px 20px 50px;
+            border-radius: 10px;
+            padding: 40px 30px 30px;
+            
+            svg{
+                position: absolute;
+                top: 10px;
+                right: 0px;
+                height: 60px;
+            }
+        }
+        &_titulo{
+            font-size: 24px;
+            color: white;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        &_info{
+            color: white;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+        &_mas_info{
+            height: 35px;
+            border-radius: 16px;
+            padding: 5px 10px;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            width: 126px;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.2);
+            span{
+                font-size: 24px;
+                margin-left: 10px;
+                margin-top: -5px;
+            }
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1024px){
+
+    .modulo_especialidades{
+        padding: 0 50px;
+        &_titulo{
+            padding: 0;
+        }
+    }
+
+    .especialidades{
+        position: relative;
+        max-width: 1250px;
+        margin: 0 auto 50px;
+        &_wrp{
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            
+        }
+        img{
+            width: 876px;
+            height: 503px;
+            border-radius: 10px;
+        }
+        &_info{
+            &_wrp{
+                position: absolute;
+                top: 50px;
+                right: 0;
+                max-width: 500px;
+                height: 380px;
+                margin: 0;
+                padding: 0 20px 0 40px;
+
+                
+                svg{
+                    position: relative;
+                    margin-bottom: 25px;
+                    margin-left: -10px;
+                    margin-top: 20px;
+                }
+            }
+            &_titulo{
+              font-size: 28px;  
+              margin-bottom: 10px;
+            }
+            &_info{
+                font-size: 18px;
+                line-height: 22px;
+                margin-bottom: 30px;
+            }
+            &_mas_info{
+                position: absolute;
+                bottom: 30px;
+                left: 30px;
+            }
+        }
+    }
+
+    .especialidades_2{
+        position: relative;
+        max-width: 1250px;
+        margin: 0 auto 50px;
+        &_wrp{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            
+        }
+        img{
+            width: 876px;
+            height: 503px;
+            border-radius: 10px;
+        }
+        &_info{
+            &_wrp{
+                position: absolute;
+                top: 50px;
+                left: 0;
+                max-width: 500px;
+                height: 380px;
+                margin: 0;
+                padding: 0 20px 0 40px;
+
+
+                svg{
+                    position: relative;
+                    margin-bottom: 25px;
+                    margin-left: -10px;
+                    margin-top: 20px;
+                }
+            }
+            &_titulo{
+              font-size: 28px;  
+              margin-bottom: 10px;
+            }
+            &_info{
+                font-size: 18px;
+                line-height: 22px;
+                margin-bottom: 30px;
+            }
+            &_mas_info{
+                position: absolute;
+                bottom: 30px;
+                left: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1350px){
+    .modulo_especialidades{
+        padding: 0;
+    }
+}

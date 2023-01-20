@@ -1,0 +1,326 @@
+.modulo_popin_contacto{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    background-color: #F5F5F5;
+    &_wrp{
+        width: 100%;
+        background-color: #F5F5F5;
+        margin: 0 auto;
+        padding: 40px 20px 60px;
+        position: relative;
+        border-radius: 10px;
+        #Componente_127_10{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 28px;
+            height: 28px;
+            z-index: 5;
+            &:hover{
+                background-color: #D9E3EB;
+                border-radius: 50%;
+            }
+        }
+    }
+    &_contenido{
+        &_titulo{
+           font-size: 28px;
+           font-weight: 600;
+           margin-bottom: 5px;
+        }
+        &_subtitulo{
+            color: #0072CE;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 35px;
+        }
+    }
+    &_formulario{
+        &_wrp{
+            position: relative;
+            i{
+                position: absolute;
+                right: 24px;
+                top: calc(50% - 0px);
+                width: 11px;
+                height: 11px;
+                display: block;
+                border-left: 2px solid black;
+                border-bottom: 2px solid black;
+                transform: rotate(-45deg); /* Giramos el cuadrado */
+                transition: all 0.25s ease;
+                pointer-events: none;
+            }
+        }
+        &_label{
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #666666;
+        }
+        &_input{
+            width: 100%;
+            height: 40px;
+            border-radius: 10px;
+            border: 1px solid #E7E7E7;
+            margin-bottom: 10px;
+            font-size: 16px;
+            padding: 0 10px;
+            font-weight: 400;
+            color: #9F9F9F;
+            position: relative;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;  
+        }
+        &_box{
+            position: relative;
+            &_comentario{
+                &_text{
+                    position: relative;
+                    width: 100%;
+                    height: 120px;
+                    border-radius: 10px;
+                    border: 1px solid #E7E7E7;
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                    padding: 15px;
+                    font-weight: 500;
+                    position: relative;
+                    -moz-appearance: none;
+                    -webkit-appearance: none;
+                    resize: none;
+                    &::placeholder{
+                        color: #9F9F9F;
+                        font-size: 16px;
+                        font-weight: 400;
+                        position: absolute;
+                        top: 15px;
+                        left: 15px;
+                    }
+                }
+            }
+            &_label{
+                display: block;
+                font-size: 14px;
+                font-weight: 500;
+                color: #666666;
+            }
+            &_text{
+                width: 100%;
+                height: 40px;
+                border-radius: 10px;
+                border: 1px solid #E7E7E7;
+                margin-bottom: 10px;
+                font-size: 16px;
+                padding: 0 10px;
+                font-weight: 500;
+                position: relative;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;  
+                &::placeholder{
+                    color: #9F9F9F;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+            &_svg{
+                position: absolute;
+                top: -20px !important;
+                right: 10px !important;
+                display: none;
+            }
+        }
+        &_btn{
+            display: flex;
+            background-color: black;
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            color: white;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            cursor: pointer;
+            span{
+                font-size: 22px;
+                margin-left: 10px;
+            }
+            &:hover{
+                background-color:#69B3E7;
+            }
+        }
+    }
+    &_cartel_error{
+        display: none;
+    }
+    &_exito{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        background-color: white;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        &_contenido{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &_svg{
+                position: relative;
+                height: initial;
+                width: initial;
+                top: 0;
+                right: 0;
+                margin-bottom: 30px;
+            }
+            &_info{
+                font-size: 32px;
+                font-weight: 600;
+                margin-bottom: 30px;
+                text-align: center;
+                padding: 0 20px;
+            }
+            &_btn{
+                height: 40px;
+                width: 166px;
+                border-radius: 20px;
+                background-color: black;
+                font-size: 16px;
+                font-weight: 500;
+                color: white;
+                &:hover{
+                    background-color: #69B3E7;
+                }
+            }
+        }
+    }
+}
+
+.modulo_popin_contacto_formulario_box.error{
+    margin-top: 30px;
+    .modulo_popin_contacto_formulario_box_label{
+        color: #F93822;
+    }
+    .modulo_popin_contacto_formulario_box_text{
+    border: #F93822;
+    box-shadow: 0px 0px 4px 0px #F93822;
+    }
+    .modulo_popin_contacto_formulario_box_svg{
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+.modulo_popin_contacto{
+    backdrop-filter: blur(4px) brightness(0.8);
+    background: none;
+    &_contenido{
+        display: flex;
+        margin-bottom: 15px;
+        align-items: center;
+        &_titulo{
+            margin: 0;
+        }
+        &_subtitulo{
+            margin: 0;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+    }
+    &_wrp{
+        position: absolute;
+        width: 800px !important;
+        height: 620px;
+        width: fit-content;
+        padding: 80px 60px 60px;
+        top: 60px;
+        left: 0;
+        right: 0;
+        overflow-y: hidden;
+
+    }
+    &_formulario{
+        &_wrp{
+            width: fit-content;
+            i{
+                top: calc(50% - 5px);
+            }
+        }
+        &_box{
+            &_text{
+                width: 320px;
+            }
+            &_label{
+                margin-bottom: 3px;
+            }
+        }
+        &_input {
+        width: 320px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        }
+        &_fila{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        &_btn{
+        width: 160px;
+        margin-bottom: 0;
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        span{
+            font-size: 22px;
+            margin-top: -2px;
+        }
+        &_wrp{
+            display: flex;
+            justify-content: end;
+        }
+        }
+
+    }
+    &_cartel_error{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #F6CFCA;
+        height: 40px;
+        margin-top: -53px;
+        margin-bottom: 25px;
+        color: #F93822;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.modulo_popin_contacto_formulario_box.error{
+    margin-top: 1px;
+    .modulo_popin_contacto_formulario_box_svg{
+        display: block;
+        top: 30px !important;
+        right: 15px !important;
+    }
+
+}
+
+}

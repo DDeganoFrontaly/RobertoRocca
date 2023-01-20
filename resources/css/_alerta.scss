@@ -1,0 +1,64 @@
+.alerta{
+    width: 100%;
+    background-color: #0072CE;
+    z-index: 1000;
+    padding: 40px 30px 20px;
+    position: fixed;
+
+    &_wrp{
+        display: flex;
+        max-width: 1250px;
+        margin: 0 auto;
+        position: relative;
+    }
+    &_izq{
+       gap: 24px; 
+       display: flex;
+       align-items: center;
+       svg{
+        flex-shrink: 0;
+       }
+       p{
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+        &:hover{
+            border-bottom: dotted 2px;
+            padding-top: 2px;
+        }
+       }
+       a{
+        text-decoration: none;
+        color: white;
+       }
+    }
+    &_der{
+        position: absolute;
+        top: -30px;
+        right: -20px;
+        svg{
+            margin:10px;
+            cursor: pointer;
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+.alerta{
+    height: 60px;
+    padding: 12px 50px;
+    &_wrp{
+        display: flex;
+        max-width: 1250px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_der{
+        position: initial;
+        margin-top: 3px;
+    }
+}
+}

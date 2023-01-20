@@ -1,0 +1,125 @@
+.volanta{
+        padding: 0 20px;
+        &_box{
+            max-width: 1250px;
+            background-color: #E7E7E7;
+            margin: 0 auto 50px;
+            padding: 35px 25px;
+            justify-content: space-between;
+            border-radius: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            &_titulo{
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 20px;          
+            }
+            &_volanta{
+                font-size: 15px;
+                font-weight: 500;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+            }
+            a{
+                max-width: 160px;
+                background-color: #F93822;
+                color: white;
+                height: 32px;
+                border-radius: 22px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 5px 15px;
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 500;
+                width: 100%;
+                text-transform: uppercase;
+                span{
+                    font-size: 24px;
+                    height: 17px;
+                    margin-bottom: 24px;
+                    margin-left: 10px;
+                    margin-top: 5px;
+                }
+                &:hover{
+                    background-color: #d9311e;
+                    color: white;
+                    span{
+                            color: white;
+                     }
+                }
+            }
+        }
+}
+
+.volanta.nota{
+    padding: 0;
+a{
+    font-size: 14px;
+    padding: 0;
+}
+}
+
+
+
+@media only screen and (min-width: 1024px){
+
+    .volanta{
+        padding: 0 50px;
+        background: none;
+        &_box{
+            padding: 60px 90px 80px 100px;
+            &_volanta{
+                margin-bottom: 13px;
+            }
+            &_titulo{
+                margin-bottom: 0;
+                font-size: 28px;
+                line-height: 28px;
+            }
+            a{
+                margin-bottom: 0;
+                max-width: 200px;
+                height: 44px;
+                padding: 5px 20px;
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .volanta.nota{
+    padding: 0 0 0 75px;
+    
+    .volanta_box{
+        padding: 40px 30px;
+        gap: 20px;
+    }
+    .volanta_box a{ 
+        margin: initial;
+    }
+    }
+
+    .volanta.novedades{
+        margin: 0 auto 80px;
+        max-width: 748px;
+        .volanta_box{
+            padding: 30px 30px 40px;
+        }
+    }
+
+    .volanta.nota{
+        .volanta_box{
+            padding: 40px;
+            &_titulo{
+                font-size: 24px;
+                line-height: 28px;
+                max-width: 377px;
+            }
+        }
+    }
+
+
+}

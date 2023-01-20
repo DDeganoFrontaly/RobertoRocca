@@ -1,0 +1,169 @@
+
+//Colors
+    $rojo: #F93822;
+    $naranja: #FF6F00;
+    $azul: #0072CE;
+    $verde: #19B300;
+    $celeste-hover:#69B3E7;
+
+//Font:
+
+@font-face {
+    font-family: 'TT Norms';
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/TT_Norms_Pro_Regular.ttf);
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/TT_Norms_Pro_Medium.ttf);
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/TT_Norms_Pro_Bold.ttf);
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    font-weight: 800;
+    font-display: swap;
+    src: url(../fonts/TT_Norms_Pro_ExtraBold.ttf);
+}
+
+
+@font-face {
+    font-family: 'TT Norms';
+    font-weight: 900;
+    font-display: swap;
+    src: url(../fonts/TT_Norms_Pro_Black.ttf);
+}
+
+
+    $primary-font: "TT Norms",arial,sans-serif;
+
+    html{
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: $primary-font;
+}
+
+*:focus,*:active{outline:0;border:0}
+
+
+.container{
+    width: 100%;
+    max-width: 1349px;
+    margin: 0 auto;
+}
+
+.none{
+    display: none !important;
+}
+
+.block{
+    display: block !important;
+}
+
+.flex{
+    display: flex !important;
+}
+
+.header_background{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.padding_main{
+    padding-top: 100px;
+}
+
+.rieles{
+    margin: 0 20px;
+}
+
+.rieles2{
+    margin: 0;
+}
+
+.header_sticky_background{
+    background-color: #E7E7E7;
+    border-radius: 5px;
+}
+
+.rotate180{
+    transform: rotateX(180deg);
+}
+
+.hover{
+    background-color: #1A1A1A;
+}
+
+.black{
+    color: black !important;
+}
+
+.grey{
+    path{
+        stroke: #E7E7E7 !important;
+    }
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+.header_sticky.emerge{
+    transform: translateY(0%);
+    height: auto;
+}
+
+
+.extra_margin{
+    margin-top: 50px;
+}
+
+button{
+    background: none;
+    border: none;
+    outline: 0;
+}
+
+button:active, button:focus{
+    border: none;
+    outline: 0;
+}
+.modulo_animacion{
+    margin-bottom: 100px;
+}
+
+
+@media only screen and (min-width: 1024px){
+    .container{
+        max-width: 100%;
+    }
+
+    .extra_margin{
+        margin-top: 250px;
+    }
+
+    .modulo_animacion{
+        margin-bottom: 50px;
+    }
+
+    .rieles{
+        margin: 0 50px;
+    }
+}

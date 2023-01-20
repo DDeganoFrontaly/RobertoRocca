@@ -1,0 +1,101 @@
+.modulo_practicas_profesionales{
+    position: relative;
+    width: 100%;
+    background-color: #FF6720;
+    padding: 80px 30px 70px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    &_wrp{
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+    &_izq{
+        &_svg{
+            position: absolute;
+            top: 20px;
+            right: -30px;
+            &_wrp{
+                position: relative;
+            }
+            &_logo{
+                position: absolute;
+                top: 20px;
+                left: -20px;
+            }
+        }
+        &_titulo{
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 30px;
+        }
+    }
+    &_der{
+        &_info{
+            font-size: 17px;
+            line-height: 24px;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 30px;
+        }
+        &_mas_info{
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            color: white;
+            -webkit-text-decoration: underline 3px #69B3E7;
+            text-decoration: underline 3px #69B3E7;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .modulo_practicas_profesionales{
+        padding: 80px 50px;
+        &_wrp{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+        }
+        &_izq{
+            &_svg{
+                position: inherit;
+                top: 20px;
+                right: -30px;
+                &_wrp{
+                    position: relative;
+                }
+                &_circulo{
+                    width: 80px;
+                    height: 80px;
+                }
+                &_logo{
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                }
+            }
+            &_titulo{
+                font-size: 32px;
+                line-height: 36px;
+            }
+        }
+        &_der{
+            max-width: 750px;
+            &_info{
+                font-size: 20px;
+                line-height: 28px;
+            }
+            &_mas_info{
+                font-size: 20px;
+                line-height: 22px;
+            }
+        }
+    }
+}

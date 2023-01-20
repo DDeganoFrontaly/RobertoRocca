@@ -1,0 +1,351 @@
+.modulo_1{
+    position: relative;
+    margin-bottom: 40px;
+    z-index: 10;
+    background-color: #0072CE;
+    padding-bottom: 80px;
+    &_picture{
+        position: relative;
+        &_mascara{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.15);
+        }
+    }
+    &_img{
+        width: 100%;
+        min-height: 333px;
+        object-fit: cover;
+    }
+    &_txt{
+        bottom: -180px;
+        padding: 0 20px 80px;
+        background-color: #0072CE;
+        margin-top: 50px;
+        &_titulo{
+            font-size: 26px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 5px;
+            margin-top: -32px;
+            position: relative;
+            line-height: 32px;
+        }
+        &_info{
+            font-size: 16px;
+            line-height: 22px;
+            color: white;
+            font-weight: 400;
+            -webkit-line-clamp: 8;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            position: relative;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+        }
+        &_redes{
+            display: flex;
+            justify-content: space-between;
+            max-width: 170px;
+            margin-top: 20px;
+            svg{
+                &:nth-child(2){
+                    margin-top: 3px;
+                }
+            }
+        }
+        &_gradient{
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(0, 0, 0, 0)), to(#0072CE));
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #0072CE 100%);
+            height: 90px;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+        }
+    }
+    &_datos{
+        background-color: white;
+        border-radius: 4px;
+        margin: -50px 20px 0;
+        padding: 18px 20px;
+        box-shadow: 3px 3px 30px 10px rgba(0, 0, 0, 0.10);
+        &_1_3{
+            padding: 0 0 5px;
+            border-bottom: 1px dashed #0072CE;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h3{
+                text-align: center;
+                font-size: 36px;
+                font-weight: 900;
+            }
+            p{
+                text-align: center;
+                font-size: 14px;
+                margin-bottom: 10px;
+                span{
+                    display: none;
+                }
+            }
+        }
+        &_2_3{
+            border-bottom: 1px dashed #0072CE;
+            padding: 10px 0 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h3{
+                text-align: center;
+                font-size: 36px;
+                font-weight: 900;
+            }
+            p{
+                text-align: center;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+        &_3_3{
+            padding: 15px 0 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h3{
+                text-align: center;
+                font-size: 36px;
+                font-weight: 900;
+            }
+            p{
+                text-align: center;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &_mas_info{
+        font-size: 20px; 
+        line-height: 32px;
+        margin: 60px 20px 0;
+        color: white;
+        span{
+         font-weight: 600;
+     }
+     }
+}
+
+.naranja .modulo_1{
+    &_pícture{
+        &_mascara{
+            background-color: none;
+        }
+    }
+    &_txt{
+        background-color: $naranja;
+        &_gradient{
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 111, 0, 0)), to(#FF6F00));
+            background: linear-gradient(to bottom, rgba(255, 111, 0, 0) 0%, #FF6F00 100%);
+        }
+    }
+}
+
+.azul .modulo_1{
+    &_pícture{
+        &_mascara{
+            background-color: none;
+        }
+    }
+    &_txt{
+        background-color: $azul;
+        &_gradient{
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 111, 0, 0)), to(#0072CE));
+            background: linear-gradient(to bottom, rgba(255, 111, 0, 0) 0%, #0072CE 100%);
+        }
+    }
+}
+
+.rojo .modulo_1{
+    &_pícture{
+        &_mascara{
+            background-color: none;
+        }
+    }
+    &_txt{
+        background-color: $rojo;
+        &_gradient{
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 111, 0, 0)), to(#F93822));
+            background: linear-gradient(to bottom, rgba(255, 111, 0, 0) 0%, #F93822 100%);
+        }
+    }
+}
+
+.escuelasTecnicas .rojo .modulo_1{
+    margin: 0 auto 300px !important;
+}
+
+.verde .modulo_1{
+    &_pícture{
+        &_mascara{
+            background-color: none;
+        }
+    }
+    &_txt{
+        background-color: $verde;
+        &_gradient{
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 111, 0, 0)), to(#19B300));
+            background: linear-gradient(to bottom, rgba(255, 111, 0, 0) 0%, #19B300 100%);
+        }
+    }
+}
+
+.home.modulo_1{
+    .modulo_1_txt_info{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .modulo_1{
+       max-width: 1920px; 
+       margin: 0 auto 100px;
+       padding-bottom: 100px;
+
+        &_picture{
+            height: 780px;
+        }
+        &_img{
+            height: 780px;
+        }
+        &_txt{
+            max-width: 1080px;
+            background-color: transparent;
+            position: absolute;
+            width: 770px;
+            height: fit-content;
+            transform: translate( 7%, 25%);
+            top: 36.5%;
+            margin-top: -50px;
+            &_redes{
+                margin-top: 30px;
+                svg{
+                    opacity: 50%;
+                    cursor: pointer;
+                    &:hover{
+                        opacity: 100%;
+                    }
+                }
+            }
+            &_gradient{
+                height: 100%;
+                opacity: 50%;
+                display: none;
+            }
+            &_titulo{
+                max-width: 770px;
+                margin-top: 0;
+                font-size: 44px;
+                line-height: 48px;
+                margin-bottom: 10px;
+                font-weight: 600;
+            }
+            &_info{
+                max-width: 770px;
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+        &_datos{
+            position: absolute;
+            right: 0;
+            left: 0;
+            justify-content: space-between;
+            display: flex;
+            max-width: 1080px;
+            margin: -90px  auto 0;
+            padding: 25px 20px;
+            &_1_3{
+                padding: 0;
+                border: none;
+                width: 300px;
+                height: 3px;
+                display: -webkit-box;
+                h3{
+                    font-size: 52px;
+                    font-weight: 800;
+                }
+                p{
+                    font-size: 16px; 
+                    max-width: 240px;
+                    margin: 0 auto;
+                    span{
+                        display: initial;
+                    }
+                }
+            }
+            &_2_3{
+                padding: 0;
+                border-right: 1px dashed #0072CE;
+                border-left: 1px dashed #0072CE;
+                border-bottom: none;
+                width: 400px;
+                h3{
+                    font-size: 52px;
+                    font-weight: 800;
+                }
+                p{
+                    font-size: 16px; 
+                }
+            }
+            &_3_3{
+                padding: 0;
+                width: 300px;
+                h3{
+                    font-size: 52px;
+                    font-weight: 800;
+                }
+                p{
+                    font-size: 16px; 
+                }
+            }
+        }
+        &_mas_info{
+            margin: 130px auto 0;
+            font-size: 32px;
+            line-height: 52px;
+            max-width: 1080px;
+            padding: 0 50px;
+        }
+    }
+
+    .modulo_1.azul.cultura{
+        margin: 0 auto 50px;
+    }
+
+    .modulo_1.home{
+        .modulo_1_txt{
+                padding-left: 0;
+        }
+        .modulo_1_txt_gradient{
+            display: block;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 1150px){
+
+    .modulo_1{
+        &_txt{
+            left: calc(50% - 590px);
+            top: 36.5%;
+        }
+        &_mas_info{
+            padding: 0;
+        }
+    }
+
+}

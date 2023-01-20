@@ -1,0 +1,25 @@
+.redes_sticky{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    opacity: 95%;
+    z-index: 100;
+    &_wrp{
+        padding: 10px 60px;
+        display: flex;
+        justify-content: space-between;
+        svg{
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .redes_sticky{
+        display: none;
+    }
+}

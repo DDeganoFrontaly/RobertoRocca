@@ -1,0 +1,247 @@
+.la_voz_de_los_protagonistas{
+    background-color: #F1F1F1;
+    width: 100%;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    &_unitario{
+        background-color: #0072CE;
+        max-width: 1250px;
+        margin: 0 auto 50px;
+        &_wrp{
+            position: relative;
+            padding: 40px 20px;
+        }
+        &_dec{
+            position: absolute;
+            top: -25px;
+            left: 20px;
+            width: 57px;
+        }
+        &_picture{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            img{
+                width: 100%;
+                max-width: 300px;
+                margin: 0 auto;
+                height: 170px;
+            }
+        }
+        &_txt{
+            font-size: 17px;
+            line-height: 22px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        &_autor{
+            &_nombre{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                p{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                    -webkit-box-orient: vertical;
+                    display: -webkit-box;
+                    -webkit-line-clamp:1;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    position: relative;
+                }
+                svg{
+                    margin-top: -10px;
+                }
+
+            }
+            &_cargo{
+                font-size: 15px;
+                color: white;
+                opacity: 70%;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+                -webkit-line-clamp:1;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                position: relative;
+            }
+        }
+    }
+    &_titulo{
+        font-size: 18px;
+        font-weight: 600;
+        padding: 0 20px;
+    }
+    &_wrp{
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+    &_cards{
+        padding: 30px 0 ;
+        display: flex;
+        &_card{
+            width:100%;
+            max-width: 300px;
+            background-color: #0072CE;
+            border-radius: 4px;
+            position: relative;
+            padding: 40px 0 0;
+            height: 550px;
+            flex-shrink: 0;
+            svg{
+                position: absolute;
+                top: -12px;
+                left: 20px;
+                z-index: 2;
+            }
+            &_nota{
+                position: relative;
+                font-size: 17px;
+                line-height: 22px;
+                color: white;
+                font-weight: 500;
+                margin-bottom: 40px;
+                padding: 0 20px;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+                -webkit-line-clamp: 7;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                position: relative;
+                height: 150px;
+
+            }
+            img{
+                width: 100%;
+                height: 170px;
+                -o-object-fit: cover;
+                object-fit: cover;
+            }
+            &_autor{
+                display: flex;
+                align-items: center;
+                &_wrp{
+                    padding: 10px 20px;
+                    position: absolute; 
+                    bottom: 0;
+                    height: 120px;
+                    svg{
+                        position: relative;
+                        top: inherit;
+                        left: inherit;
+                    }
+                }
+                &_nombre{
+                    margin-left: 10px;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 600;
+                    -webkit-box-orient: vertical;
+                    display: -webkit-box;
+                    -webkit-line-clamp:1;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    position: relative;
+                }
+                &_info{
+                    margin: 10px 0 30px;
+                    font-weight: 400;
+                    color: white;
+                    font-size: 16px;
+                    -webkit-box-orient: vertical;
+                    display: -webkit-box;
+                    -webkit-line-clamp:2;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    position: relative;
+                }
+            }
+            
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .la_voz_de_los_protagonistas{
+        padding: 80px 50px;
+        margin-bottom:50px;
+        padding: 50px 20px;
+        &_unitario{
+            margin-bottom: 100px;
+            height: 420px;
+            border-radius: 4px;
+            &_wrp{
+                padding: 70px;
+            }
+            &_dec{
+                width: inherit;
+                left: 70px;
+            }
+            &_picture{
+                position: absolute;
+                right: 70px;
+                top: -20px;
+                img{
+                    max-width: 400px;
+                    height: initial;
+                }
+            }
+            &_txt{
+                font-size: 20px;
+                line-height: 28px;
+                width: 100%;
+                max-width: 420px;
+                margin-bottom: 70px;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+                -webkit-line-clamp:7;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                position: relative;
+            }   
+            &_autor{
+                &_cargo{
+                    font-size: 16px;
+                }
+            }
+        }
+        &_titulo{
+            font-size: 24px;
+            padding: 30px 0;
+        }
+        &_cards{
+            gap: 15px;
+            &_card{
+                max-width: 400px;
+                padding: 50px 0 0;
+                &_nota{
+                    font-size: 18px;
+                    height: 110px;
+                    -webkit-line-clamp: 5;
+                }
+                img{
+                    width: 100%;
+                    height: 200px;
+                    -o-object-fit: cover;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1150px){
+    .la_voz_de_los_protagonistas{
+        &_unitario{
+            &_wrp{
+                padding: 100px 70px;
+            }
+            &_txt{
+                max-width: 630px;
+            }
+        }
+    }
+}

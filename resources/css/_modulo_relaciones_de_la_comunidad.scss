@@ -1,0 +1,124 @@
+.modulo_relaciones_de_la_comunidad{
+        padding: 0 20px;
+        &_box{
+            max-width: 960px;
+            background-color: #D9E3EB;
+            margin: 0 auto 50px;
+            padding: 25px 15px 0 15px;
+            justify-content: space-between;
+            border-radius: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            &_titulo{
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 28px;
+                max-width: 477px;
+                margin-bottom: 25px;
+                
+            }
+            &_volanta{
+                font-size: 13px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+            a{
+
+                height: 44px;
+                border-radius: 22px;
+                border: 1px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 5px 35px;
+                text-decoration: none;
+                color: black;
+                font-size: 16px;
+                font-weight: 500;
+                margin: 0 auto;
+                width: 100%;
+                margin-bottom: 25px;
+                span{
+                    font-size: 30px;
+                    height: 20px;
+                    margin-bottom: 24px;
+                    margin-left: 10px;
+                }
+                &:hover{
+                    background-color: black;
+                    color: white;
+                    span{
+                            color: white;
+                     }
+                }
+            }
+        }
+}
+
+.modulo_relaciones_de_la_comunidad.nota{
+    padding: 0;
+    .modulo_relaciones_de_la_comunidad_box_volanta{
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+    .modulo_relaciones_de_la_comunidad_box_titulo{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 7px;
+    }
+    .modulo_relaciones_de_la_comunidad_box{
+        margin-bottom: 30px;
+    }
+    .modulo_relaciones_de_la_comunidad_box a{ 
+        margin-bottom: 32px;
+    }
+}
+
+.modulo_relaciones_de_la_comunidad.novedades, .modulo_relaciones_de_la_comunidad.nota {
+    padding: 0;
+}
+
+
+
+@media only screen and (min-width: 1024px){
+
+    .modulo_relaciones_de_la_comunidad{
+        padding: 0 50px;
+        &_box{
+            padding: 40px 90px;
+            &_titulo{
+                margin-bottom: 0;
+                font-size: 22px;
+                line-height: 28px;
+            }
+            a{
+                margin-bottom: 0;
+                width: 163px;
+                padding: 5px 20px;
+            }
+        }
+    }
+
+    .modulo_relaciones_de_la_comunidad.nota{
+    padding: 0 0 0 75px;
+    
+    .modulo_relaciones_de_la_comunidad_box{
+        padding: 40px 30px;
+        gap: 20px;
+    }
+    .modulo_relaciones_de_la_comunidad_box a{ 
+        margin: initial;
+    }
+}
+
+.modulo_relaciones_de_la_comunidad.novedades{
+    margin: 0 auto 80px;
+    max-width: 748px;
+    .modulo_relaciones_de_la_comunidad_box{
+        padding: 30px 30px 40px;
+    }
+}
+
+}

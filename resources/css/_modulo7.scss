@@ -1,0 +1,131 @@
+.modulo7{
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    #becas_etrr{
+        position: absolute;
+        top: -120px;
+    }
+    &_wrp{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+    &_picture{
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        img{
+            width: 100%;
+            border-radius: 4px;
+            height: 200px;
+            max-width: 360px;
+            object-fit: cover;
+        }
+    }
+    &_mobile{
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    &_dec{
+        background-color: #F1F1F1;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+    }
+    &_info{
+        svg{
+            display: none;
+        }
+        h2{
+            display: none;
+        }
+        &_txt{
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+        a{
+            width: 220px;
+            height: 50px;
+            border: 1px solid #0072CE;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 17px;
+            &:hover{
+                background-color: #0072CE;
+                color: white;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1024px){
+
+    .modulo7{
+        margin-bottom: 50px;
+        &_wrp{
+            flex-direction: row;
+            padding: 0;
+            max-width: 1250px;
+            margin: 0 auto;
+        }
+        &_mobile{
+            display: none;
+        }
+        &_dec{
+            display: none;
+        }
+        &_picture{
+            background-color: #F1F1F1;
+            height: 540px;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 0;
+            img{
+                width: 606px;
+                height: 340px;
+                max-width: none;
+                margin-left: -120px;
+                margin-right: 20px;
+            }
+        }
+        &_info{
+            height: 540px;
+            padding: 100px 190px 0 20px;
+            svg{
+                display: flex;
+            }
+            h2{
+                display: flex;
+                margin-bottom: 30px;
+                font-size: 36px;
+            }
+            &_txt{
+                line-height: 22px;
+            }
+            a{
+               width: 180px; 
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .modulo7{
+        &_info{
+            padding-left: 0px;
+        }
+    }
+}

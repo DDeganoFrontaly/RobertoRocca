@@ -1,0 +1,101 @@
+.modulo6{
+    padding: 0 20px;
+    max-width: 1080px;
+    margin: 0 auto 30px;
+    &_izq{
+        background-color: #F93822;
+        padding: 40px 20px;
+        position: relative;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        h2{
+            font-size: 20px;
+            line-height: 15px;
+            margin-bottom: 30px;
+            color: white;
+        }
+        p{
+            font-size: 16px;
+            line-height: 22px;
+            color: white;
+        }
+        &_logo{
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            width: 53px;
+            display: flex;
+            &_circulo{
+                width: 40px;
+                height: 40px;
+            }
+            &_generico{
+                width: 30px;
+                height: 40px;
+                margin-left: -20px;
+            }
+        }
+    }
+    &_der{
+        background-color: #F1F1F1;
+        padding: 30px 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        p{
+            border-top: 1px solid #E7E7E7;
+            border-bottom: 1px solid #E7E7E7;
+            padding: 25px 0;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+}
+
+.modulo6.alternativo{
+    .modulo6_izq{
+        background-color: #FF6720;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .modulo6{
+        display: flex;
+        margin-bottom: 50px;
+        &_izq{
+            border-radius: 10px 0px 0px 10px;
+            padding: 60px 55px;
+            max-width:  450px;
+            h2{
+                font-size: 32px;
+                line-height: 36px;
+                margin-bottom: 40px;
+            }
+            p{
+                font-size: 18px;
+                line-height: 24px;
+            }
+            &_logo{
+                top: auto;
+                bottom: 60px;
+                left: 50px;
+                right: auto;
+                width: 140px;
+                align-items: flex-end;
+                &_circulo{
+                    width: 100px;
+                    height: 100px;
+                }
+                &_generico{
+                    width: 90px;
+                    height: 122px;
+                    margin-left: -50px;
+                }
+            }
+        }
+        &_der{
+            border-radius: 0px 10px 10px 0;
+        }
+
+    }
+}

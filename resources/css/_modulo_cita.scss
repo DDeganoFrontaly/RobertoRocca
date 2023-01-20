@@ -1,0 +1,31 @@
+.modulo_cita{
+    width: 100vw;
+    background-color: #F5F5F5;
+    padding: 30px;
+    margin-left: -20px;
+    margin-bottom: 42px;
+    margin-top: 0px;
+    p{
+      font-size: 22px;
+      font-style: italic;
+      line-height: 28px;  
+    }
+    svg{
+      margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 1024px){
+  .modulo_cita{
+    width: 100%;
+    padding: 40px 130px;
+    margin-top: 40px;
+    margin-left: 0;
+    svg{
+      margin-bottom: 5px;
+    }
+    p{
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+}

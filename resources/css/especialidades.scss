@@ -1,0 +1,29 @@
+@import "_generales";
+@import "_header";
+@import "_menu";
+@import "_footer";
+@import "_modulo5";
+@import "_modulo6";
+
+.especialidades{
+    &_title{
+        &_wrp{
+            max-width: 1250px;
+            margin: 0 auto;
+            padding: 0 20px;
+            margin-bottom: 20px;
+            padding-top: 80px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px){
+
+    .especialidades{
+        &_title{
+            &_wrp{
+                padding: 100px 0 0;
+            }
+        }
+    }
+}

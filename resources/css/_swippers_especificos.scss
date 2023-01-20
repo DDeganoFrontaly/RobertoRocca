@@ -1,0 +1,582 @@
+.swiper-pagination{
+    position: relative;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0;
+    left: -16px;
+    position: relative;
+}
+
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,12px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,12px));
+}
+
+:root {
+    --swiper-theme-color: #000000;
+}
+
+/* Modulo 4*/
+
+.modulo4{
+
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        margin-top: 50px;
+        height: fit-content;
+    }
+
+    .swiper-wrapper{
+        padding: 0 20px;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+    .swiper-slide{
+        &:last-child{
+            margin-right: 40px;
+        }
+    }
+
+    &.calendario .swiper-wrapper{
+        padding: 0;
+    }
+
+}
+
+
+/* Modulo La voz de los protagonistas*/
+
+.modulo_la_voz_de_los_protagonistas .swiper-wrapper{
+    padding: 10px 00px;
+}
+
+.modulo_la_voz_de_los_protagonistas .swiper-slide{ 
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.la_voz_de_los_protagonistas .swiper-button-next, .la_voz_de_los_protagonistas .swiper-button-prev{
+    display: none;
+}
+
+.la_voz_de_los_protagonistas .la_voz_de_los_protagonistas_cards_card{
+    &:first-child{
+        margin-left: 20px;
+    }
+    &:last-child{
+        margin-right: 30px;
+    }
+}
+
+
+.modulo_la_voz_de_los_protagonistas .swiper-wrapper{
+    padding: 10px 00px;
+}
+
+.modulo_la_voz_de_los_protagonistas .swiper-slide{ 
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Modulo Articulos Nota*/
+
+.modulo_articulos.nota{
+    .swiper{
+        overflow: hidden;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: 0;
+        left: -16px;
+        position: relative;
+        margin-top: 60px;
+    }
+}
+
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,12px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,12px));
+
+}
+
+:root {
+    --swiper-theme-color: #000000;
+}
+
+.modulo_articulos.nota .swiper-button-prev, .modulo_articulos.nota .swiper-button-next{
+    display: none;
+}
+
+/* Modulo Programas educativos*/
+.modulo_programas_educativos .swiper-horizontal>.swiper-pagination-bullets{
+    left: 15px;
+}
+
+.modulo_programas_educativos .swiper-wrapper{
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.modulo_programas_educativos .swiper{
+    padding: 0 40px 0 0;
+}
+
+ /* Modulo Articulos*/
+
+.modulo_articulos .swiper-slide, .modulo_foto_con_slider_wrp .swiper-slide{
+    width: auto;
+}
+
+
+.modulo_articulos .swiper{
+    padding: 0 20px 0 0;
+}
+
+ /* nuestros Proyectos*/
+
+ .modulo_articulos.nuestros_proyectos .swiper-horizontal > .modulo_articulos.nuestros_proyectos .swiper-pagination-bullets, .modulo_articulos.nuestros_proyectos .swiper-pagination-bullets.swiper-pagination-horizontal, .modulo_articulos.nuestros_proyectos .swiper-pagination-custom, .modulo_articulos.nuestros_proyectos .swiper-pagination-fraction{
+   margin-top: 270px;
+ }
+
+/* Modulo foto*/
+
+.modulo_foto_con_slider_wrp  .swiper-button-next, .modulo_foto_con_slider_wrp  .swiper-button-prev{
+    display: none;
+}
+
+.modulo_foto_con_slider_swiper .swiper-wrapper{
+    background-color: #f5f5f5;
+    padding-left: 20px;
+}
+
+.modulo_foto_con_slider_swiper .swiper-pagination{
+    margin: 0;
+    padding-top: 20px;
+    background-color: #f5f5f5;
+}
+
+
+@media only screen and (min-width: 1024px){
+    /* Modulo 4*/
+    .modulo4{
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+            position: absolute;
+            top: 15px;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 120px;
+            margin-top: 0;
+        }
+        .swiper-button-next{
+            display: flex;
+            position: absolute;
+            top: 10px; 
+            right: 20px;
+            left: inherit;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #D2D2D2;
+            &:hover{
+                color: white;
+                background-color: #0072CE;
+            }
+        }
+        .swiper-button-prev{
+            display: flex;
+            position: absolute;
+            top: 10px; 
+            right: 80px;
+            left: inherit;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #D2D2D2;
+            &:hover{
+                color: white;
+                background-color: #0072CE;
+            }
+        }
+        .swiper-wrapper{
+            padding: 20px 0 20px 50px;
+        }
+    }
+
+    .modulo4.articulo{
+        .swiper-wrapper {
+            padding: 75px 0 75px 50px;
+        }
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+            bottom: 17px;
+            top: auto;
+            padding-right: 150px;
+        }
+        .swiper-button-next{
+            display: flex;
+            position: absolute;
+            bottom: 0px; 
+            top: auto;
+            right: 20px;
+            left: inherit;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #D2D2D2;
+            &::after{
+                height: 16px;
+            }
+            &:hover{
+                color: white;
+                background-color: #0072CE;
+            }
+        }
+        .swiper-button-prev{
+            display: flex;
+            position: absolute;
+            bottom: 0px; 
+            top: auto;
+            right: 80px;
+            left: inherit;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #D2D2D2;
+            &:hover{
+                color: white;
+                background-color: #0072CE;
+            }
+        }
+    }
+
+    .modulo4.profesionales{
+        .swiper-wrapper {
+            padding: 0px 0 75px 50px;
+        }
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+            bottom: 17px;
+            top: auto;
+            padding-right: 150px;
+        }
+        .swiper-button-next{
+            display: flex;
+            position: absolute;
+            bottom: 0px; 
+            top: auto;
+            right: 20px;
+            left: inherit;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #D2D2D2;
+            &::after{
+                height: 16px;
+            }
+            &:hover{
+                color: white;
+                background-color: #0072CE;
+            }
+        }
+        .swiper-button-prev{
+            display: flex;
+            position: absolute;
+            bottom: 0px; 
+            top: auto;
+            right: 80px;
+            left: inherit;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #D2D2D2;
+            &:hover{
+                color: white;
+                background-color: #0072CE;
+            }
+        }
+    }
+
+    .modulo4.calendario{
+        .swiper-wrapper {
+            padding: 0px 0 75px 50px;
+        }
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+            bottom: 17px;
+            top: auto;
+            padding-right: 150px;
+        }
+        .swiper-button-next{
+            display: flex;
+            position: absolute;
+            bottom: 3px; 
+            top: auto;
+            right: 20px;
+            left: inherit;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #D2D2D2;
+            &::after{
+                height: 16px;
+            }
+            &:hover{
+                color: white;
+                background-color: #0072CE;
+            }
+        }
+        .swiper-button-prev{
+            display: flex;
+            position: absolute;
+            bottom: 3px; 
+            top: auto;
+            right: 80px;
+            left: inherit;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #D2D2D2;
+            &:hover{
+                color: white;
+                background-color: #0072CE;
+            }
+        }
+        .swiper-wrapper{
+            padding: 0 0 120px!important;
+        }
+        
+    }
+
+    /*Moudlo articulos nota*/
+
+
+    .modulo_articulos.nota .swiper-button-next{
+        position: relative;
+        margin-left: 40px;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #a0a0a0;
+        border-radius: 15px;
+        padding: 4px 5px 5px 10px;
+        font-weight: bold;
+        --swiper-theme-color:#0072CE;
+        &:hover{
+            background-color: #0072CE;
+            border:  2px solid #0072CE;
+            --swiper-theme-color:white;
+        }
+
+    }
+
+    .modulo_articulos.nota .swiper-button-prev{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #a0a0a0;
+        border-radius: 15px;
+        padding: 4px 9px 5px 7px;
+        font-weight: bold;
+        --swiper-theme-color:#0072CE;
+        &:hover{
+            background-color: #0072CE;
+            border:  2px solid #0072CE;
+            --swiper-theme-color:white;
+        }
+    }
+    
+    /* Modulo La voz de los protagonistas*/
+
+    .modulo_la_voz_de_los_protagonistas .swiper-wrapper{
+        justify-content: space-around;
+    }
+
+    .modulo_la_voz_de_los_protagonistas .swiper-slide:last-child{
+        margin: 0!important;
+    }
+
+    .modulo_la_voz_de_los_protagonistas .swiper-pagination{
+        display: none;
+    }
+
+    .la_voz_de_los_protagonistas .la_voz_de_los_protagonistas_cards_card{
+        &:first-child{
+            margin-left: 0px;
+        }
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
+
+
+    .swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,12px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,12px));
+
+    }
+
+    :root{
+        --swiper-navigation-size: 16px!important;
+    }
+
+
+}
+
+@media only screen and (min-width: 1350px){
+
+    /* Modulo 4*/
+
+    .modulo4{
+        .swiper-wrapper{
+            padding: 20px 0 ;
+        }
+    }
+    .modulo4.articulo{
+        .swiper-wrapper{
+            padding: 75px 0 ;
+        }
+    }
+    .modulo4.profesionales{
+        .swiper-wrapper{
+            padding: 0 0 75px ;
+        }
+    }
+
+
+    
+    /* nuestros Proyectos*/
+
+ .modulo_articulos.nuestros_proyectos .swiper-horizontal > .modulo_articulos.nuestros_proyectos .swiper-pagination-bullets, .modulo_articulos.nuestros_proyectos .swiper-pagination-bullets.swiper-pagination-horizontal, .modulo_articulos.nuestros_proyectos .swiper-pagination-custom, .modulo_articulos.nuestros_proyectos .swiper-pagination-fraction{
+    margin-top: initial;
+  }
+
+    /* Modulo Programas educativos*/
+
+    .modulo_programas_educativos .swiper-pagination-bullets.swiper-pagination-horizontal{
+        display: none;
+    }
+
+    .modulo_programas_educativos .swiper-wrapper{
+        justify-content: space-between;
+        padding-left: 0;
+    }
+
+    .modulo_programas_educativos .swiper-slide:last-child{
+        margin: 0!important;
+    }
+
+    /* Modulo La voz de los protagonistas*/
+
+    .modulo_la_voz_de_los_protagonistas .swiper-wrapper{
+        justify-content: space-around;
+    }
+
+    .modulo_la_voz_de_los_protagonistas .swiper-slide:last-child{
+        margin: 0!important;
+    }
+
+    .modulo_la_voz_de_los_protagonistas .swiper-pagination{
+        display: none;
+    }
+
+    /* Modulo Articulos*/
+
+    .modulo_articulos .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        display: flex;
+        justify-content: end;
+        margin-top: -10px;
+    }
+
+
+    .modulo_articulos .swiper-button-next, .modulo_articulos .swiper-button-prev{
+        display: block;  
+    }
+    
+    .modulo_articulos .swiper-button-wrp{
+        display: flex;
+        margin-top: 40px;
+        padding: 0 50px;
+        align-items: center;
+    }
+
+
+    /* Modulo Nota*/
+
+.modulo_articulos.nota{
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: 0;
+        justify-content: end;
+        position: relative;
+        margin-top: -10px;
+    }
+    .swiper-button-wrp{
+        margin-top: 50px;
+        padding: 0;
+    }
+}
+
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,12px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,12px));
+
+}
+
+.modulo_articulos.nota .swiper-button-prev, .modulo_articulos.nota .swiper-button-next{
+    display: block;
+}
+
+    /* Modulo foto*/
+
+    .modulo_foto_con_slider_swiper .swiper-wrapper{
+        margin-left: -50px;
+        padding-left: 0px;
+    }
+
+    .modulo_foto_con_slider_swiper .swiper-pagination{
+        padding-top: 0;
+        justify-content: flex-end;
+        margin-top: -10px;
+    }
+
+    .modulo_foto_con_slider_wrp  .swiper-button-next, .modulo_foto_con_slider_wrp  .swiper-button-prev{
+        display: flex;
+    }
+
+    .modulo_foto_con_slider_wrp .swiper-button-wrp{
+        display: flex;
+        margin-top: 40px;
+        padding: 0 50px;
+        align-items: center;
+    }
+
+    .modulo_foto_con_slider_wrp .swiper-button-next{
+        position: relative;
+        margin-left: 40px;
+        width: 30px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 4px 5px 5px 10px;
+        font-weight: bold;
+        &:hover{
+            background-color: black;
+            --swiper-theme-color:white;
+        }
+
+    }
+
+    .modulo_foto_con_slider_wrp .swiper-button-prev{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 4px 9px 5px 7px;
+        font-weight: bold;
+        &:hover{
+            background-color: black;
+            --swiper-theme-color:white;
+        }
+    }
+
+    :root{
+        --swiper-navigation-size: 16px;
+    }
+
+}

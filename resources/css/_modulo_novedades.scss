@@ -1,0 +1,153 @@
+.modulo_novedades{
+    padding: 0 20px;
+    &_wrp{
+        position: relative;
+        width: 100%;
+        max-width: 1248px;
+        border-radius: 4px;
+        border: 1px solid black;
+        padding: 20px;
+        margin-bottom: 50px;
+        svg{
+            margin-bottom: 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+        }
+        &_newslatter{
+            font-size: 13px;
+            line-height: 22px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        &_permiso{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+        &_ingresa{
+            width: 100%;
+            border: 2px solid black;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-size: 14px;
+            color: #6E6E6E;
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+        }
+        &_suscribite_btn{
+            background-color: black;
+            color: white;
+            width: 100%;
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 20px;
+            height: 40px;
+            text-decoration: none;
+            span{
+                margin-left: 10px;
+                color: white;
+                font-size: 20px;
+            }
+            &:hover{
+                background-color: $celeste-hover;
+            }
+        }
+    }
+    &_gracias{
+        height: 87px;
+        background-color: white;
+        z-index: 20;
+        font-size: 23px;
+        display: flex;
+        align-items: center;
+        color: #0072CE;
+        font-style: italic;
+        display: none;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+
+    .modulo_novedades{
+        padding: 0 50px;
+        &_wrp{
+            display: flex;
+            align-items: center;
+            padding: 5px 40px 5px 5px;
+            margin: 0 auto 100px;
+            SVG{
+                width: 146px;
+                height: 149px;
+                margin-right: 60px;
+                flex-shrink: 0;
+                margin-bottom: 0;
+            }
+            &_newslatter{
+                font-size: 13px;
+            }
+            &_permiso{
+                width: 428px;
+                font-size: 24px;
+            }
+            &_suscribite{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                min-width: 234px;
+                padding-left: 40px;
+                &_btn{
+                    max-width: 166px;
+                    cursor: pointer;
+                }
+            }
+            &_ingresa{
+                margin-bottom: 10px;
+                max-width: 440px;
+            }
+            a{
+                max-width: 166px;
+            }
+        }
+        &_gracias{
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            bottom: 2px;
+            left: auto;
+            height: 155px;
+            width: fit-content;
+            background-color: white;
+            z-index: 20;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            color: #0072CE;
+            font-style: italic;
+            display: none;
+            padding-right: 50px;
+
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1150px){
+    .modulo_novedades{
+        &_wrp{
+            &_permiso{
+                width: 429px;
+            }
+        }
+    }
+}
