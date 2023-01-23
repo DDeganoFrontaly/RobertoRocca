@@ -51,6 +51,11 @@
             font-size: 16px;
             line-height: 20px;
             margin-bottom: 20px;
+            &_requisitos{
+                padding-bottom: 20px;
+                margin-bottom: 20px;
+                border-bottom: 1px solid #F1F1F1;
+            }
         }
         a{
             width: 220px;
@@ -74,7 +79,7 @@
 @media only screen and (min-width: 1024px){
 
     .modulo7{
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         &_wrp{
             flex-direction: row;
             padding: 0;
@@ -102,8 +107,7 @@
             }
         }
         &_info{
-            height: 540px;
-            padding: 100px 190px 0 20px;
+            padding: 100px 190px 0 50px;
             svg{
                 display: flex;
             }
@@ -120,12 +124,31 @@
             }
         }
     }
+
+    .modulo7.alternativo_video{
+        .modulo7{
+            &_info{
+                max-width: 485px;
+                padding: 100px 50px 0 50px;
+            }
+        }
+        .modulo_video.nota .modulo_video_wrp{
+            padding: 0px 0 0 0px;
+        }
+    }
 }
 
 @media only screen and (min-width: 1300px){
     .modulo7{
         &_info{
             padding-left: 0px;
+        }
+    }
+    .modulo7.alternativo_video{
+        .modulo7{
+            &_info{
+                padding: 100px 50px 0 00px;
+            }
         }
     }
 }

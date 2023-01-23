@@ -1,0 +1,28 @@
+@import "_generales";
+@import "_header";
+@import "_menu";
+@import "_footer";
+@import "_modulo_tarjetas";
+@import "_modulo_preguntas_frecuentes";
+@import "_modulo8";
+@import "_modulo9";
+@import "_modulo4";
+@import "_swippers_especificos";
+@import "_modulo_direccion";
+
+.ficha_curso{
+    & .padding_main{
+        padding-top: 55px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .ficha_curso{
+        & .padding_main{
+            padding-top: 75px;
+        }
+    }
+    
+
+}

@@ -42,6 +42,9 @@
     &.calendario .swiper-wrapper{
         padding: 0;
     }
+    &.cursos .swiper-wrapper{
+        padding: 0;
+    }
 
 }
 
@@ -324,6 +327,57 @@
         }
         .swiper-button-prev{
             display: flex;
+            position: absolute;
+            bottom: 3px; 
+            top: auto;
+            right: 80px;
+            left: inherit;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #D2D2D2;
+            &:hover{
+                color: white;
+                background-color: #0072CE;
+            }
+        }
+        .swiper-wrapper{
+            padding: 0 0 120px!important;
+        }
+        
+    }
+
+    .modulo4.cursos{
+        .swiper-wrapper {
+            padding: 0px 0 75px 50px;
+        }
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+            bottom: 17px;
+            top: auto;
+            padding-right: 150px;
+            display: none;
+        }
+        .swiper-button-next{
+            display: none;
+            position: absolute;
+            bottom: 3px; 
+            top: auto;
+            right: 20px;
+            left: inherit;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #D2D2D2;
+            &::after{
+                height: 16px;
+            }
+            &:hover{
+                color: white;
+                background-color: #0072CE;
+            }
+        }
+        .swiper-button-prev{
+            display: none;
             position: absolute;
             bottom: 3px; 
             top: auto;

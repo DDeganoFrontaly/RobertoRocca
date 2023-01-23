@@ -338,6 +338,72 @@
     }
 }
 
+.modulo4.cursos{
+    background-color:#F2F2F2;
+    max-width: initial;
+    margin-bottom: 50px;
+    .modulo4{
+        &_top{
+            h2{
+                padding: 0;
+            }
+        }
+        &_wrp{
+            max-width: 1250px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        &_card{
+            height: 360px;
+            width: 285px;
+            &_top{
+                height: 136px;
+                padding: 18px;
+                letter-spacing: -1px;
+                border-radius: 8px 8px 0 0;
+                &.evento1{
+                    background-color: #FF6720;
+                }
+                &.evento2{
+                    background-color: #0072CE;
+                }
+                &.evento3{
+                    background-color: #F93822;
+                }
+                h2{
+                    font-size: 24px;
+                    color: white;
+                    font-weight: 500;
+                }
+                &_logo{
+                    &_circulo{
+                        margin-left: -13px;
+                    }
+                }
+                &_generico{
+                    height: 22px;
+                    width: 24.22px;
+                }
+            }
+            &_info{
+                background-color: white;
+                padding: 25px 20px;
+                &_title{
+                   font-size: 20px;
+                   line-height: 22px; 
+                   font-weight: 600;
+                   border-radius: 0 0 8px 8px;
+                }
+                &_txt{
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #6F6F6F;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (min-width: 1024px){
     .modulo4{
         padding: 70px 0;
@@ -460,6 +526,13 @@
                     width: fit-content;
                 }
             }
+        }
+    }
+
+    .modulo4.cursos{
+        padding: 70px 50px;
+        .modulo4_wrp{
+            padding: 0;
         }
     }
 }

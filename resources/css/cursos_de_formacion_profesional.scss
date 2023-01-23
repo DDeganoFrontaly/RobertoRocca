@@ -1,0 +1,31 @@
+@import "_generales";
+@import "_header";
+@import "_menu";
+@import "_footer";
+@import "_modulo1";
+@import "_modulo_tarjetas";
+
+.cursos_de_formacion_profesional{
+    & .padding_main{
+        padding-top: 55px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .cursos_de_formacion_profesional{
+        & .padding_main{
+            padding-top: 75px;
+        }
+        & .modulo1{
+            margin-bottom: 0;
+        }
+        & .modulo_tarjetas{
+            margin-bottom: 0;
+            &_wrp{
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.modulo8{
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    &_wrp{
+        background-color: #F2F2F2;
+        width: 100%;
+        border-radius: 4px;
+        padding: 25px 20px;
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+    &_izq{
+    h2{
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+    h3{
+      font-size: 24px;
+      margin-bottom: 20px;  
+    }
+    p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    }
+    &_der{
+        p{
+           font-size: 15px;
+           margin-bottom: 15px;
+        }
+        &_logos{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: fit-content;
+            gap: 20px;
+            &_transferencia{
+                text-align: center;
+                font-weight: bold;
+                p{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.ficha_curso{
+    & .modulo8{
+        margin-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .ficha_curso{
+        & .modulo8{
+            margin-bottom: 150px;
+        }
+    }
+
+    .modulo8{
+        &_wrp{
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+        }
+        &_izq{
+            max-width: 566px;
+        }
+        &_der{
+            width: 320px;
+            text-align: center;
+            p{
+                font-size: 15px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+            &_logos{
+                justify-content: center;
+                width: 100%;
+                &_transferencia{
+                    p{
+                        text-transform: inherit;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}

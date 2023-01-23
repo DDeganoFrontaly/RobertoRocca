@@ -9,6 +9,7 @@ import animation from './animation.js';
 import animationSchool from './animacion-red-de-escuelas-tecnicas.js';
 import video from './video.js';
 import faqs from './faqs.js';
+import contacto from './contacto.js';
 
 animation();
 animationSchool();
@@ -17,6 +18,7 @@ alert();
 video();
 menu();
 cookie();
+contacto();
 swipersPersonalizados(Swiper);
 faqs();
 

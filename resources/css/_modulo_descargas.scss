@@ -30,6 +30,9 @@
             &:hover{
                 text-decoration: underline;
             }
+            &:visited{
+                color: black;
+            }
         }
         svg{
             fill: #FF6720;
@@ -51,6 +54,7 @@
 
 }
 
+
 @media only screen and (min-width: 1024px){
     .modulo_descargas{
         &_wrp{
@@ -61,5 +65,9 @@
             font-weight: 600; 
         } 
 
+    }
+
+    .modulo_descargas.nota{
+        margin-left: 75px;
     }
 }

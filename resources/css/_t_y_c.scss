@@ -1,0 +1,41 @@
+.tyc{
+    &_wrp{
+        padding: 0 20px 70px;
+    h1{
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 40px;
+    }
+    h2{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    }
+}
+
+    @media only screen and (min-width: 1024px){
+        .tyc{
+            &_wrp{
+                padding: 0 50px 70px;
+                h1{
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1300px){
+        .tyc{
+            &_wrp{
+                padding: 0 0 70px;
+                max-width: 1250px;
+                margin: 0 auto;
+            }
+        }
+    }

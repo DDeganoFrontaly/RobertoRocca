@@ -372,7 +372,7 @@
 
     }
 
-.escuelas_tecnicas .header_sticky, .nuestro_equipo .header_sticky, .nota .header_sticky, .especialidades .header_sticky, .proceso_de_admision .header_sticky{
+.escuelas_tecnicas .header_sticky,.ficha_curso .header_sticky, .nuestro_equipo .header_sticky, .nota .header_sticky, .especialidades .header_sticky, .proceso_de_admision .header_sticky, .practicas_profesionalizantes .header_sticky, .cursos_de_formacion_profesional .header_sticky, .preguntas_frecuentes_page .header_sticky, .terminos_y_condiciones .header_sticky, .resultados_de_busqueda .header_sticky,  .resultados_de_busqueda_con_buscador .header_sticky, .contacto .header_sticky{
     transform: translateY(0%);
     opacity: 100%;
     &_top{

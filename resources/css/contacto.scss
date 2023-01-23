@@ -1,0 +1,182 @@
+@import "_generales";
+@import "_header";
+@import "_menu";
+@import "_modulo_becas";
+@import "_footer";
+
+.contacto{
+    &_wrp{
+        padding: 75px 20px 0px;
+        margin: 0 auto;
+        position: relative;
+        background-color: #F8F8F8;
+    }
+    &_titulo{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 42px;
+        &_wrp{
+            margin-bottom: 20px;
+        }
+    }
+    &_decoracion{
+        width: 95px;
+        height: 5px;
+        background-color:#FF6720;
+    }
+    &_subtitulo{
+        font-size: 12px;
+        line-height: 22px;
+        font-style: italic;
+        color: $azul;
+    }
+    &_formulario{
+        position: relative;
+
+        &_exito{
+            &_wrp{
+               position: absolute; 
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               background-color: #F5F5F5;
+               z-index: 2;
+               top: 0px;
+               left: 0px;
+               right: 0px;
+               bottom: 0;
+               display: none;
+               width: 100%;
+               text-align: center;
+               svg{
+                margin-bottom: 20px;
+               }
+               p{
+                   font-size: 32px;
+                   font-weight: 500;
+                   margin-bottom: 20px;
+                   padding: 0 20px;
+               }
+               button{
+                   width: 166px;
+                   height: 40px;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   color: #0072CE;
+                   border-radius: 20px;
+                   cursor: pointer;
+                   border-radius: 20px;
+                   border: 1px solid #0072CE;
+                   &:hover{
+                       background-color: #0072CE;
+                       color: white;
+                   }
+               }
+            }
+        }
+        &_label{
+            display: block;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 500;
+            color: #666666;
+            margin-bottom: 10px;
+        }
+        &_textarea{
+            position: relative;
+            width: 100%;
+            height: 120px;
+            border-radius: 10px;
+            border: 1px solid #E7E7E7;
+            margin-bottom: 10px;
+            font-size: 16px;
+            padding: 15px;
+            font-weight: 500;
+            position: relative;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            resize: none;
+        }
+        .modulo_becas_info_izq_formulario_input{
+            margin-bottom: 20px;
+            height: 60px;
+        }
+        .modulo_becas_info_izq_formulario_wrp i{
+            top: calc(50% - 3px);
+        }
+    }
+    &_error{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: calc( 100% - 20px);
+        height: 40px;
+        border-radius: 20px;
+        margin: 0 auto 15px;
+        background-color: #FFE7DB;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px){
+
+    .contacto{
+        &_wrp{
+            padding: 140px 50px;
+        }
+        &_titulo{
+            font-size: 32px;
+            &_wrp{
+                margin-bottom: 40px;
+            }
+        }
+        &_formulario{
+            &_exito{
+                &_wrp{
+                    top: 226px;
+                    justify-content: flex-start;
+                    padding-top: 50px;
+                }
+            }
+            &_fila{
+                display: flex;
+                gap: 40px;
+            }
+            &_textarea{
+                width: 680px;
+            }
+            .modulo_becas_info_izq_formulario_input{
+                margin-bottom: 30px;
+                color: #7F7F7F;
+                width: 500px;
+            }
+            .modulo_becas_info_izq_formulario_wrp i{
+                top: calc(50% - 8px);
+                pointer-events: none;
+            }
+            &_btn{
+                &_wrp{
+                    display: flex;
+                    justify-content: flex-end;
+                    max-width: 680px;
+                }
+            }
+        }
+        &_error{
+            position: absolute;
+            top: 80px;
+            width: calc( 100% - 100px);
+        }
+    }
+}
+
+@media only screen and (min-width: 1350px){
+    .contacto{
+        &_wrp{
+            max-width: 1350px;
+        }
+    }
+}

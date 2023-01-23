@@ -636,13 +636,13 @@ button:active, button:focus {
   background-color: white;
 }
 
-.escuelas_tecnicas .header_sticky, .nuestro_equipo .header_sticky, .nota .header_sticky, .especialidades .header_sticky, .proceso_de_admision .header_sticky {
+.escuelas_tecnicas .header_sticky, .ficha_curso .header_sticky, .nuestro_equipo .header_sticky, .nota .header_sticky, .especialidades .header_sticky, .proceso_de_admision .header_sticky, .practicas_profesionalizantes .header_sticky, .cursos_de_formacion_profesional .header_sticky, .preguntas_frecuentes_page .header_sticky, .terminos_y_condiciones .header_sticky, .resultados_de_busqueda .header_sticky, .resultados_de_busqueda_con_buscador .header_sticky, .contacto .header_sticky {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
   opacity: 100%;
 }
 
-.escuelas_tecnicas .header_sticky_top, .nuestro_equipo .header_sticky_top, .nota .header_sticky_top, .especialidades .header_sticky_top, .proceso_de_admision .header_sticky_top {
+.escuelas_tecnicas .header_sticky_top, .ficha_curso .header_sticky_top, .nuestro_equipo .header_sticky_top, .nota .header_sticky_top, .especialidades .header_sticky_top, .proceso_de_admision .header_sticky_top, .practicas_profesionalizantes .header_sticky_top, .cursos_de_formacion_profesional .header_sticky_top, .preguntas_frecuentes_page .header_sticky_top, .terminos_y_condiciones .header_sticky_top, .resultados_de_busqueda .header_sticky_top, .resultados_de_busqueda_con_buscador .header_sticky_top, .contacto .header_sticky_top {
   opacity: 100%;
   -webkit-box-shadow: 0px 0px 5px 1px #707070;
           box-shadow: 0px 0px 5px 1px #707070;
@@ -1346,6 +1346,10 @@ button:active, button:focus {
   padding: 0;
 }
 
+.modulo4.cursos .swiper-wrapper {
+  padding: 0;
+}
+
 /* Modulo La voz de los protagonistas*/
 .modulo_la_voz_de_los_protagonistas .swiper-wrapper {
   padding: 10px 00px;
@@ -1643,6 +1647,53 @@ button:active, button:focus {
   .modulo4.calendario .swiper-wrapper {
     padding: 0 0 120px !important;
   }
+  .modulo4.cursos .swiper-wrapper {
+    padding: 0px 0 75px 50px;
+  }
+  .modulo4.cursos .swiper-horizontal > .swiper-pagination-bullets, .modulo4.cursos .swiper-pagination-bullets.swiper-pagination-horizontal, .modulo4.cursos .swiper-pagination-custom, .modulo4.cursos .swiper-pagination-fraction {
+    bottom: 17px;
+    top: auto;
+    padding-right: 150px;
+    display: none;
+  }
+  .modulo4.cursos .swiper-button-next {
+    display: none;
+    position: absolute;
+    bottom: 3px;
+    top: auto;
+    right: 20px;
+    left: inherit;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #D2D2D2;
+  }
+  .modulo4.cursos .swiper-button-next::after {
+    height: 16px;
+  }
+  .modulo4.cursos .swiper-button-next:hover {
+    color: white;
+    background-color: #0072CE;
+  }
+  .modulo4.cursos .swiper-button-prev {
+    display: none;
+    position: absolute;
+    bottom: 3px;
+    top: auto;
+    right: 80px;
+    left: inherit;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #D2D2D2;
+  }
+  .modulo4.cursos .swiper-button-prev:hover {
+    color: white;
+    background-color: #0072CE;
+  }
+  .modulo4.cursos .swiper-wrapper {
+    padding: 0 0 120px !important;
+  }
   /*Moudlo articulos nota*/
   .modulo_articulos.nota .swiper-button-next {
     position: relative;
@@ -1881,7 +1932,7 @@ button:active, button:focus {
   margin-top: -25px;
   z-index: 5;
   position: relative;
-  height: 180px;
+  height: 195px;
 }
 
 .modulo1_txt_wrp h1 {
@@ -1991,6 +2042,11 @@ button:active, button:focus {
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.volanta_box_volanta_wrp {
+  height: 20px;
+  width: 100%;
   margin-bottom: 5px;
 }
 
@@ -2051,7 +2107,9 @@ button:active, button:focus {
   .volanta_box {
     padding: 60px 90px 80px 100px;
   }
-  .volanta_box_volanta {
+  .volanta_box_volanta_wrp {
+    height: 20px;
+    width: 100%;
     margin-bottom: 13px;
   }
   .volanta_box_titulo {
@@ -2090,6 +2148,26 @@ button:active, button:focus {
     font-size: 24px;
     line-height: 28px;
     max-width: 377px;
+  }
+  .modulo_volantas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    max-width: 1350px;
+    margin: 0 auto 50px;
+  }
+  .modulo_volantas .volanta {
+    padding: 0;
+    height: 100%;
+  }
+  .modulo_volantas .volanta_box {
+    padding: 50px 45px;
+    height: 100%;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 }
 
@@ -2768,6 +2846,79 @@ button:active, button:focus {
   color: #6F6F6F;
 }
 
+.modulo4.cursos {
+  background-color: #F2F2F2;
+  max-width: initial;
+  margin-bottom: 50px;
+}
+
+.modulo4.cursos .modulo4_top h2 {
+  padding: 0;
+}
+
+.modulo4.cursos .modulo4_wrp {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.modulo4.cursos .modulo4_card {
+  height: 360px;
+  width: 285px;
+}
+
+.modulo4.cursos .modulo4_card_top {
+  height: 136px;
+  padding: 18px;
+  letter-spacing: -1px;
+  border-radius: 8px 8px 0 0;
+}
+
+.modulo4.cursos .modulo4_card_top.evento1 {
+  background-color: #FF6720;
+}
+
+.modulo4.cursos .modulo4_card_top.evento2 {
+  background-color: #0072CE;
+}
+
+.modulo4.cursos .modulo4_card_top.evento3 {
+  background-color: #F93822;
+}
+
+.modulo4.cursos .modulo4_card_top h2 {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+
+.modulo4.cursos .modulo4_card_top_logo_circulo {
+  margin-left: -13px;
+}
+
+.modulo4.cursos .modulo4_card_top_generico {
+  height: 22px;
+  width: 24.22px;
+}
+
+.modulo4.cursos .modulo4_card_info {
+  background-color: white;
+  padding: 25px 20px;
+}
+
+.modulo4.cursos .modulo4_card_info_title {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  border-radius: 0 0 8px 8px;
+}
+
+.modulo4.cursos .modulo4_card_info_txt {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6F6F6F;
+}
+
 @media only screen and (min-width: 1024px) {
   .modulo4 {
     padding: 70px 0;
@@ -2904,11 +3055,27 @@ button:active, button:focus {
     width: -moz-fit-content;
     width: fit-content;
   }
+  .modulo4.cursos {
+    padding: 70px 50px;
+  }
+  .modulo4.cursos .modulo4_wrp {
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 1350px) {
   .modulo4_top h2 {
     padding-left: 0px;
+  }
+}
+
+.nuestro_equipo .padding_main {
+  padding-top: 99px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .nuestro_equipo .padding_main {
+    padding-top: 118px;
   }
 }
 /*# sourceMappingURL=nuestro_equipo.css.map */

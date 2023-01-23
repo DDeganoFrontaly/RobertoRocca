@@ -1,0 +1,244 @@
+.modulo_tarjetas{
+    background-color: #F6F6F6;
+    margin-bottom: 30px;
+    h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    &_wrp{
+        max-width: 1250px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    &_articulo{
+        width: 320px;
+        height: 435px;
+        padding: 25px 20px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 2px 8px 9px 1px #f1f1f1;
+        position: relative;
+        &_wrp{
+            display: flex;
+            gap: 50px 20px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+            justify-content: center;
+        }
+        &_link{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 5;
+        }
+        &_btn{
+            height: 26px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 13px;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            width: fit-content;
+            padding: 5px 10px;
+            margin-bottom: 15px;
+            &.estado1{
+                background-color: #0072CE;
+            }
+            &.estado2{
+                background-color: #FF6720;
+            }
+            &.estado3{
+                background-color: #E7E7E7;
+                color: black;
+            }
+        }
+        h2{
+            font-size: 22px;
+            line-height: 28px;
+            margin-bottom: 15px;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 55px;
+            margin-bottom: 10px;
+        }
+        &_picture{
+            width: 100%;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            img{
+                width: 100%;
+                border-radius: 4px;
+            }
+        }
+        p{
+            font-size: 16px;
+            line-height: 22px;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 65px;
+            margin-bottom: 10px;
+        }
+        &_bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            bottom: 20px;
+            width: 280px;
+            p{
+                height: auto;
+                margin-bottom: 0;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 600;
+            }
+            &_duracion{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+    &_noticia{
+        width: 100%;
+        max-width: 400px;
+        position: relative;
+
+        &_top{
+            position: relative;
+            border-radius: 8px 8px 0 0;
+        }
+        &_picture{
+            width: 100%;
+            height: 213px;
+            img{
+                width: 100%;
+                height: 213px;
+            }
+        }
+        &_volanta{
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: fit-content;
+            padding: 5px 10px;
+            background-color: #0072CE;
+            border-radius: 4px;
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+        }
+        &_button{
+            padding: 15px 20px 50px;
+            background-color: #F2F2F2;
+            border-radius: 0 0 8px 8px;
+            h2{
+                font-size: 22px;
+                line-height: 28px;
+                margin-bottom: 16px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+        &_link{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 5;
+        }
+    }
+    &_btn{
+        &_wrp{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                width: 100%;
+                max-width: 314px;
+                border: 1px solid #0072CE;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50px;
+                border-radius: 25px;
+                color: #0072CE;
+                text-decoration: none;
+                font-size: 17px;
+                &:hover{
+                    background-color: #0072CE;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .modulo_tarjetas{
+        &_wrp{
+            padding: 0 50px;
+            margin: 0;
+        }
+        &_articulo{
+            width: 400px;
+            height: 477px;
+            &_wrp{
+                margin-bottom: 80px;
+                justify-content: flex-start;
+            }
+            &_bottom{
+                width: 360px;
+            }
+        }
+        &_noticia{
+            &_picture{
+                height: 266px;
+                img{
+                    height: 266px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1300px){
+    .modulo_tarjetas{
+        h1{
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+        &_wrp{
+            padding: 0 0px;
+            margin: 0 auto;
+        }
+        &_btn{
+            &_wrp{
+                a{
+                    max-width: 275px;
+                }
+            }
+        }
+    }
+}

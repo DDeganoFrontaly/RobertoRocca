@@ -1,0 +1,314 @@
+.modulo_becas{
+    margin-bottom: 50px;
+    position: relative;
+    &_secundarias_ancla{
+        position: absolute;
+        top: -120px;
+    }
+    &_universitarias_ancla{
+        position: absolute;
+        top: -120px;
+    }
+    &_doctorado_ancla{
+        position: absolute;
+        top: -120px;
+    }
+    &_info{
+        background: #f5f5f5;
+        background: -moz-linear-gradient(top, #f5f5f5 78%, #f5f5f5 78%, #ffffff 78%, #ffffff 78%, #ffffff 78%, #ffffff 78%);
+        background: -webkit-linear-gradient(top, #f5f5f5 78%,#f5f5f5 78%,#ffffff 78%,#ffffff 78%,#ffffff 78%,#ffffff 78%);
+        background: linear-gradient(to bottom, #f5f5f5 78%,#f5f5f5 78%,#ffffff 78%,#ffffff 78%,#ffffff 78%,#ffffff 78%);
+        padding-bottom: 40px;
+        &_izq{
+            &_titulo{
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 5px;
+                padding: 0 20px;
+                &_wrp{
+                    background-color: white;
+                    padding: 20px 0;
+                }
+            }
+            &_decoracion{
+                width: 100px;
+                height: 5px;
+                background-color: $verde;
+                margin-left: 20px;
+            }
+            &_img_secundaria{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            &_img_universitaria{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            &_img_doctorado{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            &_texto{
+                padding: 0 20px;
+                font-size: 16px;
+                line-height: 22px;
+            }
+            &_formulario{
+                padding: 0 20px;
+                &_wrp{
+                    position: relative;
+                    width: 100%;
+                    i{
+                        position: absolute;
+                        right: 24px;
+                        top: calc(50% - 11px);
+                        width: 11px;
+                        height: 11px;
+                        display: block;
+                        border-left: 2px solid black;
+                        border-bottom: 2px solid black;
+                        transform: rotate(-45deg); /* Giramos el cuadrado */
+                        transition: all 0.25s ease;
+                    }
+                }
+                &_titulo{
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                    color: #666666;
+                }
+                &_input{
+                    width: 100%;
+                    height: 40px;
+                    border-radius: 10px;
+                    border: 1px solid #E7E7E7;
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                    padding: 0 10px;
+                    font-weight: 500;
+                    position: relative;
+                    -moz-appearance: none;
+                    -webkit-appearance: none;
+                    appearance: none;
+                }
+                &_btn{
+                    display: flex;
+                    width: 100%;
+                    height: 50px;
+                    border-radius: 20px;
+                    color: #0072CE;
+                    text-decoration: none;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 50px;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    border: 1px solid #0072CE;
+                    font-size: 17px;
+                    &_doctorado{
+                        display: flex;
+                        background-color: black;
+                        width: 100%;
+                        height: 40px;
+                        border-radius: 20px;
+                        color: white;
+                        text-decoration: none;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: 50px;
+                        margin-top: 20px;
+                    }
+                    span{
+                        font-size: 26px;
+                        margin-left: 10px;
+                        margin-bottom: 2px;
+                    }
+                }
+            }
+        }
+    }
+    &_redes{
+        display: flex;
+        position: absolute;
+        top: 67px;
+        width: 140px;
+        left: 0px;
+        right: 0;
+        margin: auto;
+        height: 40px;
+        justify-content: space-between;
+    }
+    .modulo_la_voz_de_los_protagonistas_tarjeta{
+        margin: 0 auto;
+    }
+}
+
+.modulo_becas.ficha{
+    margin-bottom: 0;
+    .modulo_becas_ancla{
+        position: absolute;
+        top: -100px;
+    }
+    .modulo_becas_info_izq_decoracion{
+        background-color: $azul;
+    }
+    .modulo_becas_der{
+        background-color: white;
+        margin: 0 20px;
+        height: 360px;
+        border-radius: 10px;
+        flex-shrink: 0;
+        padding: 35px;
+        box-shadow: 3px 3px 30px 10px rgba(0, 0, 0, 0.10);
+        &_numero{
+            font-size: 52px;
+            text-align: center;
+            font-weight: 800;
+        }
+        &_texto{
+            font-size: 16px;
+            line-height: 18px;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        &_primero{
+            border-bottom: 1px dashed black;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .modulo_becas{
+        padding: 50px;
+        width: 100%;
+        height: 950px;
+        margin-bottom: 0px;
+            &_background_secundaria{
+            background-image: url(../img/fondo_becas_secundarias.png);  
+            padding: 200px 50px 50px;  
+            background-repeat: no-repeat;
+            background-size: cover;
+            position:relative;
+            border-radius: 10px;
+            max-width: 1248px;
+            margin: 0 auto;
+            }
+            &_background_universitaria{
+                background-image: url(../img/fondo_becas_universitarias.png);  
+                padding: 200px 50px 50px;  
+                background-repeat: no-repeat;
+                background-size: cover;
+                position:relative;
+                border-radius: 10px;
+                max-width: 1248px;
+                margin: 0 auto;
+            }
+            &_background_doctorado{
+                background-image: url(../img/fondo_becas_doctorado.png);  
+                padding: 200px 50px 50px;  
+                background-repeat: no-repeat;
+                background-size: cover;
+                position:relative;
+                border-radius: 10px;
+                max-width: 1248px;
+                margin: 0 auto;
+            }
+            &_wrp{
+                width: 100%;
+                position: relative;
+                max-width: 1080px;
+                margin: 0 auto;
+            }
+            &_info{
+                display: flex;
+                border-radius: 10px;
+                padding: 40px;
+                gap: 45px;
+                position: relative;
+                z-index: 2;
+                margin-bottom: -180px;
+                background: -moz-linear-gradient(top, #f5f5f5 100%, #f5f5f5 100%, #ffffff 100%, #ffffff 100%, #ffffff 100%, #ffffff 100%);
+                background: -webkit-linear-gradient(top, #f5f5f5 100%, #f5f5f5 100%, #ffffff 100%, #ffffff 100%, #ffffff 100%, #ffffff 100%);
+                background: linear-gradient(to bottom, #f5f5f5 100%, #f5f5f5 100%, #ffffff 100%, #ffffff 100%, #ffffff 100%, #ffffff 100%);
+                &_izq{
+                    &_formulario{
+                        &_wrp{
+                            width: fit-content;
+                        }
+                    }
+                    &_titulo{
+                        font-size: 32px;
+                        &_wrp{
+                            background-color: #F5F5F5;
+                        }
+                    }
+                    &_img_secundaria{
+                        display: none;
+                    }
+                    &_img_universitaria{
+                        display: none;
+                    }
+                    &_img_doctorado{
+                        display: none;
+                    }
+                    &_texto{
+                        font-weight: 500;
+                    }
+                    &_formulario{
+                        &_input{
+                            width: 364px;
+                            margin-bottom: 15px;
+                            padding: 0 10px;
+                        }
+                        &_btn{
+                            width: 166px;
+                            margin-left: 197px;
+                            margin-bottom: 0;
+                            cursor: pointer;
+                            &_doctorado{
+                                background-color: black;
+                                width: 166px;
+                                margin-left: 197px;
+                                margin-bottom: 0;
+                                margin-left: 0px;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: $celeste-hover;
+                                }
+                                span{
+                                    font-size: 26px;
+                                    margin-bottom: 2px;
+                                    margin-left: 10px;
+                                }
+                            }
+                            &:hover{
+                                background-color: #0072CE;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+    }  
+
+    .modulo_becas.ficha{
+        height: 750px;
+        margin-bottom: 25px;
+        .modulo_becas_info{
+            padding: 40px 30px 80px;
+        }
+        .modulo_becas_der{
+            width: 285px;
+            margin: 0;
+        }
+        .modulo_becas_background_doctorado{
+            height: 640px;
+        }
+        .modulo_becas_info_izq_formulario_btn_doctorado{
+            width: 204px;
+        }
+    }
+
+}

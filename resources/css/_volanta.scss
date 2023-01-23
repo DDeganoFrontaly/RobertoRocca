@@ -20,7 +20,11 @@
                 font-size: 15px;
                 font-weight: 500;
                 text-transform: uppercase;
-                margin-bottom: 5px;
+                &_wrp{
+                    height: 20px;
+                    width: 100%;
+                    margin-bottom: 5px;
+                }
             }
             a{
                 max-width: 160px;
@@ -73,7 +77,11 @@ a{
         &_box{
             padding: 60px 90px 80px 100px;
             &_volanta{
-                margin-bottom: 13px;
+                &_wrp{
+                    height: 20px;
+                    width: 100%;
+                    margin-bottom: 13px;
+                }
             }
             &_titulo{
                 margin-bottom: 0;
@@ -117,6 +125,23 @@ a{
                 font-size: 24px;
                 line-height: 28px;
                 max-width: 377px;
+            }
+        }
+    }
+
+    .modulo_volantas{
+        display: flex;
+        padding: 50px;
+        gap: 50px;
+        max-width: 1350px;
+        margin: 0 auto 50px;
+        .volanta{
+            padding: 0;
+            height: 100%;
+            &_box{
+                padding: 50px 45px;
+                height: 100%;
+                align-items: flex-end;
             }
         }
     }

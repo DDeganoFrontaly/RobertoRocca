@@ -1,0 +1,20 @@
+@import "_generales";
+@import "_header";
+@import "_menu";
+@import "_footer";
+@import "_t_y_c";
+
+.terminos_y_condiciones{
+    & .padding_main{
+        padding-top: 75px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .terminos_y_condiciones{
+        & .padding_main{
+            padding-top: 118px;
+        }
+    }
+}

@@ -10,3 +10,18 @@
 @import "_modulo4";
 @import "_modulo_proyectos_estudiantiles";
 @import "_modulo_resumido_la_voz_de_los_protagonistas";
+
+.nuestras_escuelas{
+    & .padding_main{
+        padding-top: 99px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .nuestras_escuelas{
+        & .padding_main{
+            padding-top: 118px;
+        }
+    }
+}

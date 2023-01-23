@@ -1,0 +1,41 @@
+@import "_generales";
+@import "_header";
+@import "_menu";
+@import "_footer";
+@import "_modulo4";
+@import "_modulo_tarjetas";
+@import "_modulo_preguntas_frecuentes";
+@import "_modulo_buscador";
+
+.resultados_de_busqueda{
+    & .padding_main{
+        padding-top: 55px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .resultados_de_busqueda_con_buscador{
+        & .padding_main{
+            padding-top: 75px;
+        }
+        & .modulo_tarjetas{
+            margin-bottom: 0;
+            &_wrp{
+                padding-bottom: 60px;
+            }
+        }
+    }
+    .resultados_de_busqueda{
+        & .padding_main{
+            padding-top: 75px;
+        }
+        & .modulo_tarjetas{
+            margin-bottom: 0;
+            &_wrp{
+                padding-top: 43px;
+                padding-bottom: 60px;
+            }
+        }
+    }
+}
