@@ -1,6 +1,6 @@
 .proyectos_estudiantiles{
     max-width: 1250px;
-    margin: 0 auto 50px;
+    margin: 0 auto 70px;
     &_wrp{
         background-color: #D0E5F6;
         border-radius: 10px;
@@ -39,7 +39,8 @@
             font-size: 18px;
             font-weight: 600;
             line-height: 22px;
-            text-decoration: underline 3px #99C7EB;
+            text-decoration: none;
+            border-bottom: 3px solid #99C7EB;
             &:visited{
                 color: black!important;
             }
@@ -108,7 +109,7 @@
                     color: black;
                 }
                 &:hover{
-                    text-decoration: none;
+                    border-bottom: none;
                 }
             }
         }

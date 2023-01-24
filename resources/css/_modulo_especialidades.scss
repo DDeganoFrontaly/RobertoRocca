@@ -22,7 +22,7 @@
         &_wrp{
             position: relative;
             background-color: #F93822;
-            margin: -160px 20px 50px;
+            margin: -160px 20px 30px;
             border-radius: 10px;
             padding: 30px 30px 20px;
             
@@ -81,7 +81,7 @@
         &_wrp{
             position: relative;
             background-color: #FF6720;
-            margin: -160px 20px 50px;
+            margin: -160px 20px 30px;
             border-radius: 10px;
             padding: 40px 30px 30px;
             
@@ -129,6 +129,9 @@
     }
 }
 
+.modulo_especialidades_conjunto{
+margin-bottom: 70px;
+}
 
 @media only screen and (min-width: 1024px){
 
@@ -238,6 +241,10 @@
             }
         }
     }
+
+    .modulo_especialidades_conjunto{
+        margin-bottom: 100px;
+        }
 }
 
 @media only screen and (min-width: 1350px){

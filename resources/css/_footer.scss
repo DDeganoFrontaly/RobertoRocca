@@ -35,11 +35,19 @@
             &_redes{
                 display: flex;
                 justify-content: flex-start;
-                align-items: center;
-                gap: 15px;
-                height: 40px;
+                align-items: flex-start;
+                flex-direction: column;
+                margin-bottom: 15px;
+
+                &_logos{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    gap: 0 50px;
+                }
                 p{
                     color: white;
+                    margin-bottom: 10px;
                 }
                 svg{
                     #Trazado_2453{
@@ -79,8 +87,10 @@
                 height: 40px;
                 display: flex;
                 align-items: center;
+                text-decoration: underline;
                 &:hover{
                     color: #69B3E7;
+                    text-decoration: none;
                 }
             }
         }
@@ -129,6 +139,26 @@
             align-items: center;
             gap: 50px;
             flex-direction: row;
+            &_redes{
+                flex-direction: row;
+                margin-bottom: 0;
+                align-items: center;
+                p{
+                    margin-bottom: 0;
+                    width: 150px;
+                    flex-shrink: 0;
+                    margin-right: 30px;
+                }
+                &_logos{
+                    gap: 0 30px;
+                }
+            }
+            &_contacto{
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
         }
     }
     &_bottom{

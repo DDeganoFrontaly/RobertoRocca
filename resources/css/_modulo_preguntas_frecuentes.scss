@@ -31,13 +31,13 @@
         background-color: #F0F7FD;
         border-radius: 7px;
         padding: 15px 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         &_principal{
             display: flex;
             align-items: center;
             gap: 20px;
             &_svg{
-                margin-right: 10px;
+                margin-right: 00px;
                 cursor: pointer;
                 flex-shrink: 0;
                 #Rectángulo_56305{
@@ -184,6 +184,7 @@
             top: -150px;
         }
         &_pregunta{
+            margin-bottom: 15px;
             &_principal{
                 &_titulo{
                     font-size: 20px;

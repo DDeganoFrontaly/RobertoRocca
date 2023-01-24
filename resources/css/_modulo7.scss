@@ -1,6 +1,6 @@
 .modulo7{
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     position: relative;
     #becas_etrr{
         position: absolute;
@@ -18,7 +18,7 @@
         border-radius: 4px;
         display: flex;
         justify-content: center;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         img{
             width: 100%;
             border-radius: 4px;
@@ -110,6 +110,7 @@
             padding: 100px 190px 0 50px;
             svg{
                 display: flex;
+                margin-bottom: 10px;
             }
             h2{
                 display: flex;

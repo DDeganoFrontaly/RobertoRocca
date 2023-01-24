@@ -670,7 +670,7 @@ button:active, button:focus {
   border-radius: 20px;
   color: #0072CE;
   font-weight: 500;
-  margin-right: 35px;
+  margin-right: 24px;
   display: none;
 }
 
@@ -1212,7 +1212,7 @@ button:active, button:focus {
 
 .modulo_1 {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   z-index: 10;
   background-color: #0072CE;
   padding-bottom: 80px;
@@ -1622,7 +1622,7 @@ button:active, button:focus {
 .especialidades_info_wrp {
   position: relative;
   background-color: #F93822;
-  margin: -160px 20px 50px;
+  margin: -160px 20px 30px;
   border-radius: 10px;
   padding: 30px 30px 20px;
 }
@@ -1693,7 +1693,7 @@ button:active, button:focus {
 .especialidades_2_info_wrp {
   position: relative;
   background-color: #FF6720;
-  margin: -160px 20px 50px;
+  margin: -160px 20px 30px;
   border-radius: 10px;
   padding: 40px 30px 30px;
 }
@@ -1748,6 +1748,10 @@ button:active, button:focus {
 
 .especialidades_2_info_mas_info:hover {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modulo_especialidades_conjunto {
+  margin-bottom: 70px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1856,6 +1860,9 @@ button:active, button:focus {
     position: absolute;
     bottom: 30px;
     left: 30px;
+  }
+  .modulo_especialidades_conjunto {
+    margin-bottom: 100px;
   }
 }
 
@@ -1995,15 +2002,30 @@ button:active, button:focus {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.footer_top_der_redes_logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 15px;
-  height: 40px;
+  width: 100%;
+  gap: 0 50px;
 }
 
 .footer_top_der_redes p {
   color: white;
+  margin-bottom: 10px;
 }
 
 .footer_top_der_redes svg #Trazado_2453:hover {
@@ -2041,10 +2063,12 @@ button:active, button:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: underline;
 }
 
 .footer_top_der_contacto:hover {
   color: #69B3E7;
+  text-decoration: none;
 }
 
 .footer_bottom p {
@@ -2106,6 +2130,32 @@ button:active, button:focus {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .footer_top_der_redes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer_top_der_redes p {
+    margin-bottom: 0;
+    width: 150px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-right: 30px;
+  }
+  .footer_top_der_redes_logos {
+    gap: 0 30px;
+  }
+  .footer_top_der_contacto {
+    text-decoration: none;
+  }
+  .footer_top_der_contacto:hover {
+    text-decoration: underline;
+  }
   .footer_bottom p {
     color: #888888;
   }
@@ -2116,7 +2166,7 @@ button:active, button:focus {
 
 .proyectos_estudiantiles {
   max-width: 1250px;
-  margin: 0 auto 50px;
+  margin: 0 auto 70px;
 }
 
 .proyectos_estudiantiles_wrp {
@@ -2167,8 +2217,8 @@ button:active, button:focus {
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
-  -webkit-text-decoration: underline 3px #99C7EB;
-          text-decoration: underline 3px #99C7EB;
+  text-decoration: none;
+  border-bottom: 3px solid #99C7EB;
 }
 
 .proyectos_estudiantiles_info_ver_mas:visited {
@@ -2235,7 +2285,7 @@ button:active, button:focus {
     color: black;
   }
   .proyectos_estudiantiles_info_ver_mas:hover {
-    text-decoration: none;
+    border-bottom: none;
   }
 }
 
@@ -2243,7 +2293,7 @@ button:active, button:focus {
   background-color: #F1F1F1;
   width: 100%;
   padding: 50px 0;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .la_voz_de_los_protagonistas_unitario {
@@ -2278,7 +2328,6 @@ button:active, button:focus {
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
-  height: 170px;
 }
 
 .la_voz_de_los_protagonistas_unitario_txt {
@@ -2441,6 +2490,7 @@ button:active, button:focus {
     padding: 80px 50px;
     margin-bottom: 50px;
     padding: 50px 20px;
+    margin-bottom: 100px;
   }
   .la_voz_de_los_protagonistas_unitario {
     margin-bottom: 100px;
@@ -2519,7 +2569,7 @@ button:active, button:focus {
 .volanta_box {
   max-width: 1250px;
   background-color: #E7E7E7;
-  margin: 0 auto 50px;
+  margin: 0 auto 70px;
   padding: 35px 25px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -2610,6 +2660,7 @@ button:active, button:focus {
   }
   .volanta_box {
     padding: 60px 90px 80px 100px;
+    margin-bottom: 100px;
   }
   .volanta_box_volanta_wrp {
     height: 20px;
@@ -2619,7 +2670,7 @@ button:active, button:focus {
   .volanta_box_titulo {
     margin-bottom: 0;
     font-size: 28px;
-    line-height: 28px;
+    line-height: 32px;
   }
   .volanta_box a {
     margin-bottom: 0;
@@ -2660,7 +2711,7 @@ button:active, button:focus {
     padding: 50px;
     gap: 50px;
     max-width: 1350px;
-    margin: 0 auto 50px;
+    margin: 0 auto 100px;
   }
   .modulo_volantas .volanta {
     padding: 0;
@@ -2680,7 +2731,7 @@ button:active, button:focus {
   width: 100%;
   background-color: #FF6720;
   padding: 80px 30px 70px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   overflow: hidden;
 }
 
@@ -2726,17 +2777,18 @@ button:active, button:focus {
   font-weight: 600;
   line-height: 22px;
   color: white;
-  -webkit-text-decoration: underline 3px #69B3E7;
-  text-decoration: underline 3px #69B3E7;
+  border-bottom: 3px solid #69B3E7;
+  text-decoration: none;
 }
 
 .modulo_practicas_profesionales_der_mas_info:hover {
-  text-decoration: none;
+  border-bottom: none;
 }
 
 @media only screen and (min-width: 1024px) {
   .modulo_practicas_profesionales {
     padding: 80px 50px;
+    margin-bottom: 100px;
   }
   .modulo_practicas_profesionales_wrp {
     display: -webkit-box;

@@ -586,7 +586,7 @@ button:active, button:focus {
   border-radius: 20px;
   color: #0072CE;
   font-weight: 500;
-  margin-right: 35px;
+  margin-right: 24px;
   display: none;
 }
 
@@ -1184,15 +1184,30 @@ button:active, button:focus {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.footer_top_der_redes_logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 15px;
-  height: 40px;
+  width: 100%;
+  gap: 0 50px;
 }
 
 .footer_top_der_redes p {
   color: white;
+  margin-bottom: 10px;
 }
 
 .footer_top_der_redes svg #Trazado_2453:hover {
@@ -1230,10 +1245,12 @@ button:active, button:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: underline;
 }
 
 .footer_top_der_contacto:hover {
   color: #69B3E7;
+  text-decoration: none;
 }
 
 .footer_bottom p {
@@ -1295,6 +1312,32 @@ button:active, button:focus {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .footer_top_der_redes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer_top_der_redes p {
+    margin-bottom: 0;
+    width: 150px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-right: 30px;
+  }
+  .footer_top_der_redes_logos {
+    gap: 0 30px;
+  }
+  .footer_top_der_contacto {
+    text-decoration: none;
+  }
+  .footer_top_der_contacto:hover {
+    text-decoration: underline;
+  }
   .footer_bottom p {
     color: #888888;
   }
@@ -1305,7 +1348,7 @@ button:active, button:focus {
 
 .modulo5 {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .modulo5_picture {
@@ -1341,7 +1384,7 @@ button:active, button:focus {
 
 @media only screen and (min-width: 1024px) {
   .modulo5 {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   .modulo5_picture img {
     border-radius: 8px;
@@ -1412,7 +1455,7 @@ button:active, button:focus {
 
 .modulo6_der {
   background-color: #F1F1F1;
-  padding: 30px 20px;
+  padding: 0px 20px 30px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -1423,6 +1466,10 @@ button:active, button:focus {
   padding: 25px 0;
   font-size: 16px;
   line-height: 20px;
+}
+
+.modulo6_der p:first-child {
+  border-top: none;
 }
 
 .modulo6.alternativo .modulo6_izq {
@@ -1471,6 +1518,7 @@ button:active, button:focus {
   }
   .modulo6_der {
     border-radius: 0px 10px 10px 0;
+    padding: 30px 70px;
   }
 }
 

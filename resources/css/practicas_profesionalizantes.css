@@ -586,7 +586,7 @@ button:active, button:focus {
   border-radius: 20px;
   color: #0072CE;
   font-weight: 500;
-  margin-right: 35px;
+  margin-right: 24px;
   display: none;
 }
 
@@ -1129,7 +1129,7 @@ button:active, button:focus {
 .modulo1 {
   width: 100%;
   position: relative;
-  margin: 0 auto 170px;
+  margin: 0 auto 80px;
 }
 
 .modulo1 #quienes_somos, .modulo1 #nuestroequipo {
@@ -1206,7 +1206,7 @@ button:active, button:focus {
   }
   .modulo1_txt {
     padding: 0 50px;
-    top: 42%;
+    top: 50%;
     background: none;
     margin-top: 0;
   }
@@ -1244,8 +1244,8 @@ button:active, button:focus {
 .modulo4 {
   width: 100%;
   max-width: 1250px;
-  margin: 0 auto;
-  padding: 50px 0;
+  margin: 0 auto 70px;
+  padding: 20px 0;
   position: relative;
 }
 
@@ -1262,6 +1262,10 @@ button:active, button:focus {
   padding-top: 5px;
   font-size: 18px;
   padding-left: 20px;
+}
+
+.modulo4_top_input_option {
+  padding: 20px;
 }
 
 .modulo4_card {
@@ -1313,7 +1317,7 @@ button:active, button:focus {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  max-width: 156px;
+  max-width: 256px;
   padding: 5px 15px;
   border-radius: 4px;
   position: absolute;
@@ -1336,6 +1340,7 @@ button:active, button:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-weight: 700;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1445,6 +1450,7 @@ button:active, button:focus {
 .modulo4.profesionales {
   width: 100%;
   max-width: none;
+  margin-bottom: 70px;
 }
 
 .modulo4.profesionales .modulo4_wrp {
@@ -1487,6 +1493,8 @@ button:active, button:focus {
 
 .modulo4.profesionales .modulo4_card {
   max-width: 240px;
+  -webkit-box-shadow: 2px 8px 9px 1px #f1f1f1;
+          box-shadow: 2px 8px 9px 1px #f1f1f1;
 }
 
 .modulo4.profesionales .modulo4_card_picture {
@@ -1515,7 +1523,7 @@ button:active, button:focus {
   background-color: #F1F1F1;
   width: 100%;
   max-width: none;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .modulo4.profesionales.alternativo .modulo4_wrp {
@@ -1543,6 +1551,8 @@ button:active, button:focus {
 
 .modulo4.profesionales.alternativo .modulo4_card {
   max-width: 240px;
+  -webkit-box-shadow: 2px 8px 9px 1px #f1f1f1;
+          box-shadow: 2px 8px 9px 1px #f1f1f1;
 }
 
 .modulo4.profesionales.alternativo .modulo4_card_picture {
@@ -1554,8 +1564,6 @@ button:active, button:focus {
   padding: 16px 20px;
   height: 200px;
   background-color: white;
-  -webkit-box-shadow: 2px 8px 9px 1px #aaa9a9;
-          box-shadow: 2px 8px 9px 1px #aaa9a9;
 }
 
 .modulo4.profesionales.alternativo .modulo4_card_info_title {
@@ -1719,6 +1727,7 @@ button:active, button:focus {
 @media only screen and (min-width: 1024px) {
   .modulo4 {
     padding: 70px 0;
+    margin-bottom: 100px;
   }
   .modulo4_top h2 {
     font-size: 24px;
@@ -1833,6 +1842,9 @@ button:active, button:focus {
     top: 15px;
     left: -435px;
   }
+  .modulo4.profesionales, .modulo4.profesionales.alternativo {
+    margin-bottom: 100px;
+  }
   .modulo4.profesionales .modulo4_top, .modulo4.profesionales.alternativo .modulo4_top {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1868,7 +1880,7 @@ button:active, button:focus {
 
 .modulo7 {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   position: relative;
 }
 
@@ -1899,7 +1911,7 @@ button:active, button:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .modulo7_picture img {
@@ -2013,6 +2025,7 @@ button:active, button:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 10px;
   }
   .modulo7_info h2 {
     display: -webkit-box;
@@ -2139,7 +2152,7 @@ button:active, button:focus {
 .volanta_box {
   max-width: 1250px;
   background-color: #E7E7E7;
-  margin: 0 auto 50px;
+  margin: 0 auto 70px;
   padding: 35px 25px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -2230,6 +2243,7 @@ button:active, button:focus {
   }
   .volanta_box {
     padding: 60px 90px 80px 100px;
+    margin-bottom: 100px;
   }
   .volanta_box_volanta_wrp {
     height: 20px;
@@ -2239,7 +2253,7 @@ button:active, button:focus {
   .volanta_box_titulo {
     margin-bottom: 0;
     font-size: 28px;
-    line-height: 28px;
+    line-height: 32px;
   }
   .volanta_box a {
     margin-bottom: 0;
@@ -2280,7 +2294,7 @@ button:active, button:focus {
     padding: 50px;
     gap: 50px;
     max-width: 1350px;
-    margin: 0 auto 50px;
+    margin: 0 auto 100px;
   }
   .modulo_volantas .volanta {
     padding: 0;
@@ -2519,15 +2533,30 @@ button:active, button:focus {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.footer_top_der_redes_logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 15px;
-  height: 40px;
+  width: 100%;
+  gap: 0 50px;
 }
 
 .footer_top_der_redes p {
   color: white;
+  margin-bottom: 10px;
 }
 
 .footer_top_der_redes svg #Trazado_2453:hover {
@@ -2565,10 +2594,12 @@ button:active, button:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: underline;
 }
 
 .footer_top_der_contacto:hover {
   color: #69B3E7;
+  text-decoration: none;
 }
 
 .footer_bottom p {
@@ -2629,6 +2660,32 @@ button:active, button:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .footer_top_der_redes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer_top_der_redes p {
+    margin-bottom: 0;
+    width: 150px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-right: 30px;
+  }
+  .footer_top_der_redes_logos {
+    gap: 0 30px;
+  }
+  .footer_top_der_contacto {
+    text-decoration: none;
+  }
+  .footer_top_der_contacto:hover {
+    text-decoration: underline;
   }
   .footer_bottom p {
     color: #888888;

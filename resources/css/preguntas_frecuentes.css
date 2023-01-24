@@ -586,7 +586,7 @@ button:active, button:focus {
   border-radius: 20px;
   color: #0072CE;
   font-weight: 500;
-  margin-right: 35px;
+  margin-right: 24px;
   display: none;
 }
 
@@ -1184,15 +1184,30 @@ button:active, button:focus {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.footer_top_der_redes_logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 15px;
-  height: 40px;
+  width: 100%;
+  gap: 0 50px;
 }
 
 .footer_top_der_redes p {
   color: white;
+  margin-bottom: 10px;
 }
 
 .footer_top_der_redes svg #Trazado_2453:hover {
@@ -1230,10 +1245,12 @@ button:active, button:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: underline;
 }
 
 .footer_top_der_contacto:hover {
   color: #69B3E7;
+  text-decoration: none;
 }
 
 .footer_bottom p {
@@ -1295,6 +1312,32 @@ button:active, button:focus {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .footer_top_der_redes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer_top_der_redes p {
+    margin-bottom: 0;
+    width: 150px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-right: 30px;
+  }
+  .footer_top_der_redes_logos {
+    gap: 0 30px;
+  }
+  .footer_top_der_contacto {
+    text-decoration: none;
+  }
+  .footer_top_der_contacto:hover {
+    text-decoration: underline;
+  }
   .footer_bottom p {
     color: #888888;
   }
@@ -1343,7 +1386,7 @@ button:active, button:focus {
   background-color: #F0F7FD;
   border-radius: 7px;
   padding: 15px 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .modulo_preguntas_frecuentes_pregunta_principal {
@@ -1357,7 +1400,7 @@ button:active, button:focus {
 }
 
 .modulo_preguntas_frecuentes_pregunta_principal_svg {
-  margin-right: 10px;
+  margin-right: 00px;
   cursor: pointer;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -1514,6 +1557,9 @@ button:active, button:focus {
   .modulo_preguntas_frecuentes #proceso_de_ingreso {
     position: absolute;
     top: -150px;
+  }
+  .modulo_preguntas_frecuentes_pregunta {
+    margin-bottom: 15px;
   }
   .modulo_preguntas_frecuentes_pregunta_principal_titulo {
     font-size: 20px;

@@ -1,6 +1,6 @@
 .modulo5{
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     &_picture{
         max-width: 1250px;
         margin: 0 auto;
@@ -32,7 +32,7 @@
 @media only screen and (min-width: 1024px){
 
     .modulo5{
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         &_picture{
             img{
                 border-radius: 8px;

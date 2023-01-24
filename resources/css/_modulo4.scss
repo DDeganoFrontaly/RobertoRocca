@@ -1,8 +1,8 @@
 .modulo4{
     width: 100%;
     max-width: 1250px;
-    margin: 0 auto;
-    padding: 50px 0;
+    margin: 0 auto 70px;
+    padding: 20px 0;
     position: relative;
     #propuesta_educativa, #profesionales, #equipos, #articulos, #fechas_importantes{
         position: absolute;
@@ -14,6 +14,11 @@
             padding-top: 5px;
             font-size: 18px;
             padding-left: 20px;
+        }
+        &_input{
+            &_option{
+                padding: 20px;
+            }
         }
     }
     &_card{
@@ -50,8 +55,8 @@
             height: 250px;
             border-bottom-left-radius: 8px;
             border-bottom-right-radius: 8px;
-            padding-bottom: 30px;      
-            box-shadow: 2px 8px 9px 1px #f1f1f1;
+            padding-bottom: 30px;
+            box-shadow: 2px 8px 9px 1px #f1f1f1;      
             &_volanta{
                 text-transform: uppercase;
                 font-size: 14px;
@@ -59,7 +64,7 @@
                 color: white;
                 background-color: #0072CE;
                 width: fit-content;
-                max-width: 156px;
+                max-width: 256px;
                 padding: 5px 15px;
                 border-radius: 4px;
                 position: absolute;
@@ -77,6 +82,7 @@
                 margin-bottom: 20px;
                 display: flex;
                 justify-content: center;
+                font-weight: 700;
                 align-items: center;
             }
             &_title{
@@ -170,6 +176,7 @@
 .modulo4.profesionales{
     width: 100%;
     max-width: none;
+    margin-bottom: 70px;
     .modulo4_wrp{
         max-width: 1250px;
     }
@@ -202,6 +209,7 @@
     }
     .modulo4_card{
         max-width: 240px;
+        box-shadow: 2px 8px 9px 1px #f1f1f1;
         &_picture{
             width: 240px;
             height: 220px;
@@ -227,7 +235,7 @@
     background-color: #F1F1F1; 
     width: 100%;
     max-width: none;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     .modulo4_wrp{
         max-width: 1250px;
     }
@@ -248,6 +256,7 @@
     }
     .modulo4_card{
         max-width: 240px;
+        box-shadow: 2px 8px 9px 1px #f1f1f1;
         &_picture{
             width: 240px;
             height: 220px;
@@ -256,7 +265,6 @@
             padding: 16px 20px;
             height: 200px;
             background-color: white;
-            box-shadow: 2px 8px 9px 1px #aaa9a9;
         
             &_title{
                 font-size: 18px;
@@ -407,6 +415,7 @@
 @media only screen and (min-width: 1024px){
     .modulo4{
         padding: 70px 0;
+        margin-bottom: 100px;
         &_top{
             h2{
                 font-size: 24px;
@@ -516,6 +525,7 @@
     }
 
     .modulo4.profesionales,.modulo4.profesionales.alternativo{
+        margin-bottom: 100px;
         .modulo4_top{
             display: flex;
             align-items: center;
