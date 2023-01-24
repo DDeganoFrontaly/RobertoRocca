@@ -1655,6 +1655,7 @@ button:active, button:focus {
   background-color: #F2F2F2;
   max-width: initial;
   margin-bottom: 50px;
+  padding: 50px 0;
 }
 
 .modulo4.cursos .modulo4_top h2 {
@@ -1859,13 +1860,17 @@ button:active, button:focus {
   .modulo4.profesionales .modulo4_top_input, .modulo4.profesionales.alternativo .modulo4_top_input {
     margin-top: 0;
   }
+  .modulo4.profesionales .modulo4_top_input option::marker, .modulo4.profesionales.alternativo .modulo4_top_input option::marker {
+    display: none;
+  }
   .modulo4.profesionales .modulo4_top_input_wrp, .modulo4.profesionales.alternativo .modulo4_top_input_wrp {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
   .modulo4.cursos {
-    padding: 70px 50px;
+    padding: 70px 50px 0;
+    margin-bottom: 100px;
   }
   .modulo4.cursos .modulo4_wrp {
     padding: 0;

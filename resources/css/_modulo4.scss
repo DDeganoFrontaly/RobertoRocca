@@ -294,6 +294,7 @@
             max-width: 1250px;
             margin: 0 auto;
             padding: 0 20px;
+            
         }
         &_card{
             height: 360px;
@@ -350,6 +351,7 @@
     background-color:#F2F2F2;
     max-width: initial;
     margin-bottom: 50px;
+    padding: 50px 0;
     .modulo4{
         &_top{
             h2{
@@ -532,6 +534,11 @@
             justify-content: space-between;
             &_input{
                 margin-top: 0;
+                option{
+                    &::marker{
+                        display: none;
+                    }
+                }
                 &_wrp{
                     width: fit-content;
                 }
@@ -540,7 +547,8 @@
     }
 
     .modulo4.cursos{
-        padding: 70px 50px;
+        padding: 70px 50px 0;
+        margin-bottom: 100px;
         .modulo4_wrp{
             padding: 0;
         }

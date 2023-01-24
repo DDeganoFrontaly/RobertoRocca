@@ -1,7 +1,7 @@
 .modulo8{
     width: 100%;
     padding: 0 20px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     &_wrp{
         background-color: #F2F2F2;
         width: 100%;
@@ -50,7 +50,7 @@
 
 .ficha_curso{
     & .modulo8{
-        margin-bottom: 80px;
+        margin-bottom: 70px;
     }
 }
 
@@ -63,6 +63,7 @@
     }
 
     .modulo8{
+        padding: 0 50px;
         &_wrp{
             display: flex;
             justify-content: space-between;

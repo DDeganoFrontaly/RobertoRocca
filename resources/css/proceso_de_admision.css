@@ -1875,6 +1875,7 @@ button:active, button:focus {
   background-color: #F2F2F2;
   max-width: initial;
   margin-bottom: 50px;
+  padding: 50px 0;
 }
 
 .modulo4.cursos .modulo4_top h2 {
@@ -2079,13 +2080,17 @@ button:active, button:focus {
   .modulo4.profesionales .modulo4_top_input, .modulo4.profesionales.alternativo .modulo4_top_input {
     margin-top: 0;
   }
+  .modulo4.profesionales .modulo4_top_input option::marker, .modulo4.profesionales.alternativo .modulo4_top_input option::marker {
+    display: none;
+  }
   .modulo4.profesionales .modulo4_top_input_wrp, .modulo4.profesionales.alternativo .modulo4_top_input_wrp {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
   .modulo4.cursos {
-    padding: 70px 50px;
+    padding: 70px 50px 0;
+    margin-bottom: 100px;
   }
   .modulo4.cursos .modulo4_wrp {
     padding: 0;
@@ -2388,7 +2393,7 @@ button:active, button:focus {
 }
 
 .modulo_preguntas_frecuentes.ficha {
-  margin: -50px 0 90px;
+  margin: -50px 0 100px;
   padding: 0;
 }
 
@@ -2514,6 +2519,7 @@ button:active, button:focus {
   .modulo_preguntas_frecuentes.ficha .modulo_preguntas_frecuentes_preguntas {
     max-width: 1080px;
     margin: 0 auto;
+    padding: 0 50px;
   }
   .modulo_preguntas_frecuentes.ficha .modulo_preguntas_frecuentes_info {
     max-width: 915px;
@@ -2522,7 +2528,7 @@ button:active, button:focus {
     padding: 40px 30px 40px 50px;
   }
   .ficha_curso .modulo_preguntas_frecuentes {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   .preguntas_frecuentes_page .modulo_preguntas_frecuentes {
     padding-bottom: 30px;
@@ -2533,6 +2539,9 @@ button:active, button:focus {
 @media only screen and (min-width: 1250px) {
   .modulo_preguntas_frecuentes {
     max-width: 1348px;
+  }
+  .modulo_preguntas_frecuentes.ficha .modulo_preguntas_frecuentes_preguntas {
+    padding: 0;
   }
 }
 
@@ -2878,7 +2887,7 @@ button:active, button:focus {
     background-color: #0072CE;
   }
   .modulo4.calendario .swiper-wrapper {
-    padding: 0 0 120px !important;
+    padding: 0 0 50px !important;
   }
   .modulo4.cursos .swiper-wrapper {
     padding: 0px 0 75px 50px;
@@ -2925,7 +2934,7 @@ button:active, button:focus {
     background-color: #0072CE;
   }
   .modulo4.cursos .swiper-wrapper {
-    padding: 0 0 120px !important;
+    padding: 0 0 50px !important;
   }
   /*Moudlo articulos nota*/
   .modulo_articulos.nota .swiper-button-next {

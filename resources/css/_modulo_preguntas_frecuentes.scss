@@ -91,7 +91,7 @@
 }
 
 .modulo_preguntas_frecuentes.ficha{
-    margin: -50px 0 90px;
+    margin: -50px 0 100px;
     padding: 0;
     .modulo_preguntas_frecuentes{
         
@@ -208,6 +208,7 @@
             &_preguntas{
                 max-width: 1080px;
                 margin: 0 auto;
+                padding: 0 50px;
             }
             &_info{
                 max-width: 915px;
@@ -218,7 +219,7 @@
         padding: 40px 30px 40px 50px;
     }
     .ficha_curso .modulo_preguntas_frecuentes{
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     .preguntas_frecuentes_page{
@@ -235,5 +236,10 @@
             max-width: 1348px;
     }
 
+    .modulo_preguntas_frecuentes.ficha{
+        .modulo_preguntas_frecuentes_preguntas{
+            padding: 0;
+        }
+    }
 }
 
