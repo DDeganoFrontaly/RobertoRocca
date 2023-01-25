@@ -636,13 +636,13 @@ button:active, button:focus {
   background-color: white;
 }
 
-.escuelas_tecnicas .header_sticky, .ficha_curso .header_sticky, .nuestro_equipo .header_sticky, .nota .header_sticky, .especialidades .header_sticky, .proceso_de_admision .header_sticky, .practicas_profesionalizantes .header_sticky, .cursos_de_formacion_profesional .header_sticky, .preguntas_frecuentes_page .header_sticky, .terminos_y_condiciones .header_sticky, .resultados_de_busqueda .header_sticky, .resultados_de_busqueda_con_buscador .header_sticky, .contacto .header_sticky {
+.escuelas_tecnicas .header_sticky, .ficha_curso .header_sticky, .nuestro_equipo .header_sticky, .nota .header_sticky, .especialidades .header_sticky, .proceso_de_admision .header_sticky, .practicas_profesionalizantes .header_sticky, .cursos_de_formacion_profesional .header_sticky, .preguntas_frecuentes_page .header_sticky, .terminos_y_condiciones .header_sticky, .resultados_de_busqueda .header_sticky, .resultados_de_busqueda_con_buscador .header_sticky, .resultados_de_busqueda_con_buscador_error .header_sticky, .contacto .header_sticky {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
   opacity: 100%;
 }
 
-.escuelas_tecnicas .header_sticky_top, .ficha_curso .header_sticky_top, .nuestro_equipo .header_sticky_top, .nota .header_sticky_top, .especialidades .header_sticky_top, .proceso_de_admision .header_sticky_top, .practicas_profesionalizantes .header_sticky_top, .cursos_de_formacion_profesional .header_sticky_top, .preguntas_frecuentes_page .header_sticky_top, .terminos_y_condiciones .header_sticky_top, .resultados_de_busqueda .header_sticky_top, .resultados_de_busqueda_con_buscador .header_sticky_top, .contacto .header_sticky_top {
+.escuelas_tecnicas .header_sticky_top, .ficha_curso .header_sticky_top, .nuestro_equipo .header_sticky_top, .nota .header_sticky_top, .especialidades .header_sticky_top, .proceso_de_admision .header_sticky_top, .practicas_profesionalizantes .header_sticky_top, .cursos_de_formacion_profesional .header_sticky_top, .preguntas_frecuentes_page .header_sticky_top, .terminos_y_condiciones .header_sticky_top, .resultados_de_busqueda .header_sticky_top, .resultados_de_busqueda_con_buscador .header_sticky_top, .resultados_de_busqueda_con_buscador_error .header_sticky_top, .contacto .header_sticky_top {
   opacity: 100%;
   -webkit-box-shadow: 0px 0px 5px 1px #707070;
           box-shadow: 0px 0px 5px 1px #707070;
@@ -2559,6 +2559,7 @@ button:active, button:focus {
   padding: 0 20px;
   background-color: #D9E8F3;
   position: relative;
+  height: 65px;
 }
 
 .modulo_buscador_wrp {
@@ -2620,7 +2621,7 @@ button:active, button:focus {
 }
 
 .modulo_buscador_error {
-  position: absolute;
+  position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -2638,8 +2639,21 @@ button:active, button:focus {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 30px;
-  left: calc( 50% - 212px);
-  bottom: -75px;
+  text-align: center;
+}
+
+.modulo_buscador_error_wrp {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
 }
 
 .modulo_buscador_error p {
@@ -2653,8 +2667,8 @@ button:active, button:focus {
   .modulo_buscador_input {
     width: 180px;
   }
-  .modulo_buscador_error {
-    bottom: -30px;
+  .modulo_buscador_error_wrp {
+    margin-top: -30px;
   }
 }
 
@@ -2670,27 +2684,31 @@ button:active, button:focus {
   }
 }
 
-.resultados_de_busqueda .padding_main {
+.resultados_de_busqueda .padding_main, .resultados_de_busqueda_con_buscador .padding_main, .resultados_de_busqueda_con_buscador_error .padding_main {
   padding-top: 55px;
 }
 
+.resultados_de_busqueda_con_buscador_error .container {
+  height: 520px;
+}
+
 @media only screen and (min-width: 1024px) {
-  .resultados_de_busqueda_con_buscador .padding_main {
+  .resultados_de_busqueda_con_buscador .padding_main, .resultados_de_busqueda_con_buscador_error .padding_main {
     padding-top: 75px;
   }
-  .resultados_de_busqueda_con_buscador .modulo_tarjetas {
+  .resultados_de_busqueda_con_buscador .modulo_tarjetas, .resultados_de_busqueda_con_buscador_error .modulo_tarjetas {
     margin-bottom: 0;
   }
-  .resultados_de_busqueda_con_buscador .modulo_tarjetas_wrp {
+  .resultados_de_busqueda_con_buscador .modulo_tarjetas_wrp, .resultados_de_busqueda_con_buscador_error .modulo_tarjetas_wrp {
     padding-bottom: 60px;
   }
-  .resultados_de_busqueda .padding_main {
+  .resultados_de_busqueda .padding_main, .resultados_de_busqueda_con_buscador .padding_main {
     padding-top: 75px;
   }
-  .resultados_de_busqueda .modulo_tarjetas {
+  .resultados_de_busqueda .modulo_tarjetas, .resultados_de_busqueda_con_buscador .modulo_tarjetas {
     margin-bottom: 0;
   }
-  .resultados_de_busqueda .modulo_tarjetas_wrp {
+  .resultados_de_busqueda .modulo_tarjetas_wrp, .resultados_de_busqueda_con_buscador .modulo_tarjetas_wrp {
     padding-top: 43px;
     padding-bottom: 60px;
   }

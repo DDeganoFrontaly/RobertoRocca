@@ -7,15 +7,21 @@
 @import "_modulo_preguntas_frecuentes";
 @import "_modulo_buscador";
 
-.resultados_de_busqueda{
+.resultados_de_busqueda, .resultados_de_busqueda_con_buscador, .resultados_de_busqueda_con_buscador_error{
     & .padding_main{
         padding-top: 55px;
     }
 }
 
+.resultados_de_busqueda_con_buscador_error{
+    .container{
+        height: 520px;
+    }
+}
+
 @media only screen and (min-width: 1024px){
 
-    .resultados_de_busqueda_con_buscador{
+    .resultados_de_busqueda_con_buscador, .resultados_de_busqueda_con_buscador_error{
         & .padding_main{
             padding-top: 75px;
         }
@@ -26,7 +32,7 @@
             }
         }
     }
-    .resultados_de_busqueda{
+    .resultados_de_busqueda, .resultados_de_busqueda_con_buscador {
         & .padding_main{
             padding-top: 75px;
         }

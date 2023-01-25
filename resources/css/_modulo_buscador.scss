@@ -2,6 +2,7 @@
     padding: 0 20px;
     background-color: #D9E8F3;
     position: relative;
+    height: 65px;
     &_wrp{
         max-width: 1250px;
         display: flex;
@@ -36,7 +37,7 @@
         top: 30%;
     }
     &_error{
-        position: absolute;
+        position: relative;
         width: fit-content;
         max-width: 572px;
         height: 60px;
@@ -46,8 +47,14 @@
         justify-content: center;
         align-items: center;
         padding: 0 30px;
-        left: calc( 50% - 212px);
-        bottom: -75px;
+        text-align: center;
+        &_wrp{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
         p{
             font-size: 20px;
         }
@@ -61,7 +68,9 @@
             width: 180px;
         }
         &_error{
-            bottom: -30px;
+            &_wrp{
+                margin-top: -30px;
+            }
         }
     }
 }

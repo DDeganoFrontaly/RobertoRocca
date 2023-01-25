@@ -636,13 +636,13 @@ button:active, button:focus {
   background-color: white;
 }
 
-.escuelas_tecnicas .header_sticky, .ficha_curso .header_sticky, .nuestro_equipo .header_sticky, .nota .header_sticky, .especialidades .header_sticky, .proceso_de_admision .header_sticky, .practicas_profesionalizantes .header_sticky, .cursos_de_formacion_profesional .header_sticky, .preguntas_frecuentes_page .header_sticky, .terminos_y_condiciones .header_sticky, .resultados_de_busqueda .header_sticky, .resultados_de_busqueda_con_buscador .header_sticky, .contacto .header_sticky {
+.escuelas_tecnicas .header_sticky, .ficha_curso .header_sticky, .nuestro_equipo .header_sticky, .nota .header_sticky, .especialidades .header_sticky, .proceso_de_admision .header_sticky, .practicas_profesionalizantes .header_sticky, .cursos_de_formacion_profesional .header_sticky, .preguntas_frecuentes_page .header_sticky, .terminos_y_condiciones .header_sticky, .resultados_de_busqueda .header_sticky, .resultados_de_busqueda_con_buscador .header_sticky, .resultados_de_busqueda_con_buscador_error .header_sticky, .contacto .header_sticky {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
   opacity: 100%;
 }
 
-.escuelas_tecnicas .header_sticky_top, .ficha_curso .header_sticky_top, .nuestro_equipo .header_sticky_top, .nota .header_sticky_top, .especialidades .header_sticky_top, .proceso_de_admision .header_sticky_top, .practicas_profesionalizantes .header_sticky_top, .cursos_de_formacion_profesional .header_sticky_top, .preguntas_frecuentes_page .header_sticky_top, .terminos_y_condiciones .header_sticky_top, .resultados_de_busqueda .header_sticky_top, .resultados_de_busqueda_con_buscador .header_sticky_top, .contacto .header_sticky_top {
+.escuelas_tecnicas .header_sticky_top, .ficha_curso .header_sticky_top, .nuestro_equipo .header_sticky_top, .nota .header_sticky_top, .especialidades .header_sticky_top, .proceso_de_admision .header_sticky_top, .practicas_profesionalizantes .header_sticky_top, .cursos_de_formacion_profesional .header_sticky_top, .preguntas_frecuentes_page .header_sticky_top, .terminos_y_condiciones .header_sticky_top, .resultados_de_busqueda .header_sticky_top, .resultados_de_busqueda_con_buscador .header_sticky_top, .resultados_de_busqueda_con_buscador_error .header_sticky_top, .contacto .header_sticky_top {
   opacity: 100%;
   -webkit-box-shadow: 0px 0px 5px 1px #707070;
           box-shadow: 0px 0px 5px 1px #707070;
@@ -2288,7 +2288,7 @@ button:active, button:focus {
 
 .modulo3 {
   max-width: 1250px;
-  margin: 0 auto 100px;
+  margin: 0 auto 70px;
   padding: 0 20px;
   position: relative;
 }
@@ -2346,6 +2346,7 @@ button:active, button:focus {
 @media only screen and (min-width: 1024px) {
   .modulo3 {
     padding: 0 50px;
+    margin-bottom: 100px;
     margin: 0 auto 150px;
   }
   .modulo3_wrp h2 {
