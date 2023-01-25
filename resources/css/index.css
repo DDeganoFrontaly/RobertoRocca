@@ -197,7 +197,7 @@ button:active, button:focus {
 
 .alerta_izq p:hover {
   border-bottom: dotted 2px;
-  padding-top: 2px;
+  padding-top: 1px;
 }
 
 .alerta_izq a {

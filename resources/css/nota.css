@@ -3127,6 +3127,11 @@ button:active, button:focus {
   display: none;
 }
 
+.modulo_nota_cuerpo_izq_redes_logos a {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
 .modulo_nota_cuerpo_izq_redes_logos a:hover path {
   fill: #69B3E7;
 }
