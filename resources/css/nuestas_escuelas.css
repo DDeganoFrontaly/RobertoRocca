@@ -3463,7 +3463,7 @@ button:active, button:focus {
 }
 
 @media only screen and (min-width: 1024px) {
-  .nuestras_escuelas .padding_main {
+  .escuelas_tecnicas .padding_main {
     padding-top: 118px;
   }
 }
