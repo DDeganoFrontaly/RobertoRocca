@@ -1760,7 +1760,7 @@ button:active, button:focus {
 }
 
 .modulo_preguntas_frecuentes.ficha {
-  margin: -50px 0 100px;
+  margin: 0 0 100px;
   padding: 0;
 }
 

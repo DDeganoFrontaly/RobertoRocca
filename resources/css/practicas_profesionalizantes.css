@@ -1127,7 +1127,7 @@ button:active, button:focus {
 .modulo1 {
   width: 100%;
   position: relative;
-  margin: 0 auto 80px;
+  margin: 0 auto 40px;
 }
 
 .modulo1 #quienes_somos, .modulo1 #nuestroequipo {
@@ -1152,10 +1152,9 @@ button:active, button:focus {
 }
 
 .modulo1_txt {
-  position: absolute;
+  position: relative;
   background: white;
   width: 100%;
-  top: 75%;
 }
 
 .modulo1_txt_wrp {
@@ -1163,7 +1162,6 @@ button:active, button:focus {
   margin-top: -25px;
   z-index: 5;
   position: relative;
-  height: 195px;
 }
 
 .modulo1_txt_wrp h1 {
@@ -1203,14 +1201,17 @@ button:active, button:focus {
     display: none;
   }
   .modulo1_txt {
+    position: absolute;
     padding: 0 50px;
     top: 50%;
     background: none;
     margin-top: 0;
+    height: 195px;
   }
   .modulo1_txt_wrp {
     padding: 0;
     height: auto;
+    margin-top: 0;
   }
   .modulo1_txt_wrp h1 {
     font-size: 44px;

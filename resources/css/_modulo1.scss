@@ -1,7 +1,7 @@
 .modulo1{
     width: 100%;
     position: relative;
-    margin: 0 auto 80px;
+    margin: 0 auto 40px;
     #quienes_somos, #nuestroequipo{
         position: absolute;
         top: -150px;
@@ -21,16 +21,14 @@
         background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
         }
     &_txt{
-        position: absolute;
+        position: relative;
         background: white;
         width: 100%;
-        top: 75%;
         &_wrp{
             padding: 0 20px;
             margin-top: -25px;
             z-index: 5;
             position: relative;
-            height: 195px;
             h1{
                 font-size: 24px;
                 font-weight: 600;
@@ -46,6 +44,7 @@
         }
     }
 }
+
 
 @media only screen and (min-width: 1024px){
 
@@ -70,13 +69,16 @@
             display: none;
         }
         &_txt{
+            position: absolute;
             padding: 0 50px;
             top: 50%;
             background: none;
             margin-top: 0;
+            height: 195px;
             &_wrp{
                 padding: 0;
                 height: auto;
+                margin-top: 0;
                 h1{
                     font-size: 44px;
                     color: white;
