@@ -1605,4 +1605,14 @@ button:active, button:focus {
     padding: 0;
   }
 }
+
+.preguntas_frecuentes_page .padding_main {
+  padding-top: 15px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .preguntas_frecuentes_page .padding_main {
+    padding-top: 80px;
+  }
+}
 /*# sourceMappingURL=preguntas_frecuentes.css.map */
