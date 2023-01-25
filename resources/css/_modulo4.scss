@@ -127,6 +127,7 @@
                 justify-content: center;
                 border-radius: 4px;
                 border: 1px solid #E7E7E7;
+                padding-top: 4px;
             }
         }
     }
@@ -220,6 +221,7 @@
             &_title{
                 font-size: 18px;
                 line-height: 22px;
+                font-weight: 600;
             }
             &_txt{
                 height: 56px;
@@ -269,6 +271,8 @@
             &_title{
                 font-size: 18px;
                 line-height: 22px;
+                color: #FF6720;
+                font-weight: 600;
             }
             &_txt{
                 height: 56px;
@@ -547,11 +551,8 @@
     }
 
     .modulo4.cursos{
-        padding: 70px 50px 0;
+        padding: 70px 50px 70px;
         margin-bottom: 100px;
-        .modulo4_wrp{
-            padding: 0;
-        }
     }
 }
 

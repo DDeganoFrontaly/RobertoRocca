@@ -14,6 +14,9 @@
     & .padding_main{
         padding-top: 55px;
     }
+    .modulo9{
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (min-width: 1024px){
@@ -22,6 +25,13 @@
         & .padding_main{
             padding-top: 75px;
         }
+    }
+    .modulo9{
+        margin-bottom: 45px;
+    }
+
+    .modulo4.cursos{
+        padding-bottom: 0;
     }
     
 

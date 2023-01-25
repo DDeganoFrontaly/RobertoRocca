@@ -16,4 +16,16 @@
 @import "_footer";
 @import "_redes_sticky";
 
+.nota{
+    .volanta_box{
+        margin-bottom: 25px;
+    }
+}
 
+@media only screen and (min-width: 1024px){
+    .nota{
+        .volanta_box{
+            margin-bottom: 50px;
+        }
+    }
+}

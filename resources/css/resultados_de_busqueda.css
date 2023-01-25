@@ -644,8 +644,6 @@ button:active, button:focus {
 
 .escuelas_tecnicas .header_sticky_top, .ficha_curso .header_sticky_top, .nuestro_equipo .header_sticky_top, .nota .header_sticky_top, .especialidades .header_sticky_top, .proceso_de_admision .header_sticky_top, .practicas_profesionalizantes .header_sticky_top, .cursos_de_formacion_profesional .header_sticky_top, .preguntas_frecuentes_page .header_sticky_top, .terminos_y_condiciones .header_sticky_top, .resultados_de_busqueda .header_sticky_top, .resultados_de_busqueda_con_buscador .header_sticky_top, .resultados_de_busqueda_con_buscador_error .header_sticky_top, .contacto .header_sticky_top {
   opacity: 100%;
-  -webkit-box-shadow: 0px 0px 5px 1px #707070;
-          box-shadow: 0px 0px 5px 1px #707070;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1508,6 +1506,7 @@ button:active, button:focus {
           justify-content: center;
   border-radius: 4px;
   border: 1px solid #E7E7E7;
+  padding-top: 4px;
 }
 
 .modulo4.articulo {
@@ -1615,6 +1614,7 @@ button:active, button:focus {
 .modulo4.profesionales .modulo4_card_info_title {
   font-size: 18px;
   line-height: 22px;
+  font-weight: 600;
 }
 
 .modulo4.profesionales .modulo4_card_info_txt {
@@ -1674,6 +1674,8 @@ button:active, button:focus {
 .modulo4.profesionales.alternativo .modulo4_card_info_title {
   font-size: 18px;
   line-height: 22px;
+  color: #FF6720;
+  font-weight: 600;
 }
 
 .modulo4.profesionales.alternativo .modulo4_card_info_txt {
@@ -1974,11 +1976,8 @@ button:active, button:focus {
     width: fit-content;
   }
   .modulo4.cursos {
-    padding: 70px 50px 0;
+    padding: 70px 50px 70px;
     margin-bottom: 100px;
-  }
-  .modulo4.cursos .modulo4_wrp {
-    padding: 0;
   }
 }
 
@@ -2058,6 +2057,7 @@ button:active, button:focus {
   width: fit-content;
   padding: 5px 10px;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .modulo_tarjetas_articulo_btn.estado1 {
@@ -2535,7 +2535,7 @@ button:active, button:focus {
     max-width: 915px;
   }
   .modulo_preguntas_frecuentes_pregunta.no_desplegado {
-    padding: 40px 30px 40px 50px;
+    padding: 15px 20px;
   }
   .ficha_curso .modulo_preguntas_frecuentes {
     margin-bottom: 100px;
@@ -2686,6 +2686,10 @@ button:active, button:focus {
 
 .resultados_de_busqueda .padding_main, .resultados_de_busqueda_con_buscador .padding_main, .resultados_de_busqueda_con_buscador_error .padding_main {
   padding-top: 55px;
+}
+
+.resultados_de_busqueda .modulo_tarjetas, .resultados_de_busqueda_con_buscador .modulo_tarjetas, .resultados_de_busqueda_con_buscador_error .modulo_tarjetas {
+  background-color: white;
 }
 
 .resultados_de_busqueda_con_buscador_error .container {

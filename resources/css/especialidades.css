@@ -644,8 +644,6 @@ button:active, button:focus {
 
 .escuelas_tecnicas .header_sticky_top, .ficha_curso .header_sticky_top, .nuestro_equipo .header_sticky_top, .nota .header_sticky_top, .especialidades .header_sticky_top, .proceso_de_admision .header_sticky_top, .practicas_profesionalizantes .header_sticky_top, .cursos_de_formacion_profesional .header_sticky_top, .preguntas_frecuentes_page .header_sticky_top, .terminos_y_condiciones .header_sticky_top, .resultados_de_busqueda .header_sticky_top, .resultados_de_busqueda_con_buscador .header_sticky_top, .resultados_de_busqueda_con_buscador_error .header_sticky_top, .contacto .header_sticky_top {
   opacity: 100%;
-  -webkit-box-shadow: 0px 0px 5px 1px #707070;
-          box-shadow: 0px 0px 5px 1px #707070;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1463,7 +1461,7 @@ button:active, button:focus {
 .modulo6_der p {
   border-top: 1px solid #E7E7E7;
   border-bottom: 1px solid #E7E7E7;
-  padding: 25px 0;
+  padding: 23px 0;
   font-size: 16px;
   line-height: 20px;
 }
@@ -1482,6 +1480,7 @@ button:active, button:focus {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 50px;
+    padding: 0;
   }
   .modulo6_izq {
     border-radius: 10px 0px 0px 10px;
@@ -1530,9 +1529,16 @@ button:active, button:focus {
   padding-top: 80px;
 }
 
+.especialidades .modulo5 {
+  margin-bottom: 30px;
+}
+
 @media only screen and (min-width: 1300px) {
   .especialidades_title_wrp {
     padding: 100px 0 0;
+  }
+  .especialidades .modulo5 {
+    margin-bottom: 40px;
   }
 }
 /*# sourceMappingURL=especialidades.css.map */

@@ -19,6 +19,7 @@
     .modulo_volantas{
         margin-bottom: 70px;
     }
+
 }
 
 @media only screen and (min-width: 1024px){
@@ -26,6 +27,14 @@
     .practicas_profesionalizantes{
         & .padding_main{
             padding-top: 118px;
+        }
+        .modulo7{
+            &_info{
+                padding-top: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
         }
     }
 }

@@ -15,6 +15,9 @@
             padding-top: 80px;
         }
     }
+    .modulo5{
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (min-width: 1300px){
@@ -24,6 +27,9 @@
             &_wrp{
                 padding: 100px 0 0;
             }
+        }
+        .modulo5{
+            margin-bottom: 40px;
         }
     }
 }
