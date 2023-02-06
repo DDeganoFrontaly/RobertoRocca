@@ -105,6 +105,8 @@
                     cursor: pointer;
                     border: 1px solid #0072CE;
                     font-size: 17px;
+                    height: 40px;
+                    font-weight: 500;
                     &_doctorado{
                         display: flex;
                         background-color: black;
@@ -266,6 +268,8 @@
                             width: 166px;
                             margin-left: 197px;
                             margin-bottom: 0;
+                            height: 40px;
+                            font-weight: 500;
                             cursor: pointer;
                             &_doctorado{
                                 background-color: black;

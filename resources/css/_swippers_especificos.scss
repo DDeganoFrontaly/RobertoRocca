@@ -355,10 +355,8 @@
             bottom: 17px;
             top: auto;
             padding-right: 150px;
-            display: none;
         }
         .swiper-button-next{
-            display: none;
             position: absolute;
             bottom: 3px; 
             top: auto;
@@ -377,7 +375,6 @@
             }
         }
         .swiper-button-prev{
-            display: none;
             position: absolute;
             bottom: 3px; 
             top: auto;
@@ -393,7 +390,7 @@
             }
         }
         .swiper-wrapper{
-            padding: 0 0 50px!important;
+            padding: 0 0 150px!important;
         }
         
     }

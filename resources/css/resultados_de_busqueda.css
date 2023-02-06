@@ -431,6 +431,11 @@ button:active, button:focus {
   display: flex;
 }
 
+.header_sticky_izq_logo svg {
+  margin-top: 5px;
+  height: 24px;
+}
+
 .header_sticky_izq_logo svg #Trazado_8080 {
   fill: #FF6720;
 }
@@ -1401,7 +1406,7 @@ button:active, button:focus {
 
 .modulo4_card_info {
   z-index: 10;
-  padding: 0 30px;
+  padding: 0 17px;
   position: relative;
   height: 250px;
   border-bottom-left-radius: 8px;
@@ -1861,6 +1866,7 @@ button:active, button:focus {
   }
   .modulo4_card_info_title {
     font-size: 24px;
+    font-weight: 600;
   }
   .modulo4_card_info_txt {
     -webkit-line-clamp: 3;
@@ -1885,6 +1891,7 @@ button:active, button:focus {
     text-transform: uppercase;
     text-decoration: none;
     gap: 8px;
+    font-size: 14px;
   }
   .modulo4_card_info_ver_mas span {
     font-size: 24px;
@@ -1892,6 +1899,9 @@ button:active, button:focus {
   }
   .modulo4_card_info_ver_mas:hover {
     background-color: rgba(0, 0, 0, 0.2);
+  }
+  .escuelas_tecnicas .modulo4 {
+    padding: 0;
   }
   .modulo4.articulo {
     padding: 60px 0 40px;
@@ -2120,7 +2130,7 @@ button:active, button:focus {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   width: 280px;
 }
 
@@ -2576,34 +2586,29 @@ button:active, button:focus {
           align-items: center;
 }
 
-.modulo_buscador_input {
-  width: 110px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #86AAC5;
+.modulo_buscador input {
   border: none;
-  padding-left: 45px;
-  color: white;
+  background-color: #D9E8F3;
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  width: 200px;
 }
 
-.modulo_buscador_input::-webkit-input-placeholder {
-  color: white;
+.modulo_buscador input::-webkit-input-placeholder {
+  color: black;
 }
 
-.modulo_buscador_input:-ms-input-placeholder {
-  color: white;
+.modulo_buscador input:-ms-input-placeholder {
+  color: black;
 }
 
-.modulo_buscador_input::-ms-input-placeholder {
-  color: white;
+.modulo_buscador input::-ms-input-placeholder {
+  color: black;
 }
 
-.modulo_buscador_input::placeholder {
-  color: white;
-}
-
-.modulo_buscador_input_wrp {
-  position: relative;
+.modulo_buscador input::placeholder {
+  color: black;
 }
 
 .modulo_buscador p {
@@ -2614,10 +2619,41 @@ button:active, button:focus {
   color: #F93822;
 }
 
-.modulo_buscador svg {
-  position: absolute;
-  left: 20px;
-  top: 30%;
+.modulo_buscador a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  padding: 5px 10px;
+  height: 40px;
+  background-color: #86AAC5;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.modulo_buscador a p {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.modulo_buscador a p span {
+  display: none;
+}
+
+.modulo_buscador a:hover {
+  background-color: #0072CE;
 }
 
 .modulo_buscador_error {
@@ -2664,8 +2700,18 @@ button:active, button:focus {
   .modulo_buscador {
     padding: 0 50px;
   }
-  .modulo_buscador_input {
-    width: 180px;
+  .modulo_buscador input {
+    width: 250px;
+  }
+  .modulo_buscador a {
+    width: 173px;
+  }
+  .modulo_buscador a p span {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .modulo_buscador_error_wrp {
     margin-top: -30px;

@@ -2,11 +2,17 @@
   background-color: #f1f1f1;
   padding: 50px 0;
   margin-bottom: 70px;
+  position: relative;
+}
+
+#modelo_animacion {
+  position: absolute;
+  top: -100px;
 }
 
 @media only screen and (min-width: 1024px) {
   .modulo_animacion {
-    padding: 86px 0;
+    padding: 86px 0 0;
     margin-bottom: 100px;
   }
 }

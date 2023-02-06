@@ -431,6 +431,11 @@ button:active, button:focus {
   display: flex;
 }
 
+.header_sticky_izq_logo svg {
+  margin-top: 5px;
+  height: 24px;
+}
+
 .header_sticky_izq_logo svg #Trazado_8080 {
   fill: #FF6720;
 }
@@ -1434,7 +1439,7 @@ button:active, button:focus {
     margin-top: 0;
   }
   .modulo1_txt_wrp h1 {
-    font-size: 44px;
+    font-size: 40px;
     color: white;
     font-weight: 600;
     margin-bottom: 10px;
@@ -1517,7 +1522,7 @@ button:active, button:focus {
 
 .modulo4_card_info {
   z-index: 10;
-  padding: 0 30px;
+  padding: 0 17px;
   position: relative;
   height: 250px;
   border-bottom-left-radius: 8px;
@@ -1977,6 +1982,7 @@ button:active, button:focus {
   }
   .modulo4_card_info_title {
     font-size: 24px;
+    font-weight: 600;
   }
   .modulo4_card_info_txt {
     -webkit-line-clamp: 3;
@@ -2001,6 +2007,7 @@ button:active, button:focus {
     text-transform: uppercase;
     text-decoration: none;
     gap: 8px;
+    font-size: 14px;
   }
   .modulo4_card_info_ver_mas span {
     font-size: 24px;
@@ -2008,6 +2015,9 @@ button:active, button:focus {
   }
   .modulo4_card_info_ver_mas:hover {
     background-color: rgba(0, 0, 0, 0.2);
+  }
+  .escuelas_tecnicas .modulo4 {
+    padding: 0;
   }
   .modulo4.articulo {
     padding: 60px 0 40px;
@@ -2185,7 +2195,8 @@ button:active, button:focus {
 
 .modulo7_info a {
   width: 220px;
-  height: 50px;
+  height: 40px;
+  font-weight: 500;
   border: 1px solid #0072CE;
   border-radius: 25px;
   display: -webkit-box;
@@ -2896,10 +2907,8 @@ button:active, button:focus {
     bottom: 17px;
     top: auto;
     padding-right: 150px;
-    display: none;
   }
   .modulo4.cursos .swiper-button-next {
-    display: none;
     position: absolute;
     bottom: 3px;
     top: auto;
@@ -2918,7 +2927,6 @@ button:active, button:focus {
     background-color: #0072CE;
   }
   .modulo4.cursos .swiper-button-prev {
-    display: none;
     position: absolute;
     bottom: 3px;
     top: auto;
@@ -2934,7 +2942,7 @@ button:active, button:focus {
     background-color: #0072CE;
   }
   .modulo4.cursos .swiper-wrapper {
-    padding: 0 0 50px !important;
+    padding: 0 0 150px !important;
   }
   /*Moudlo articulos nota*/
   .modulo_articulos.nota .swiper-button-next {

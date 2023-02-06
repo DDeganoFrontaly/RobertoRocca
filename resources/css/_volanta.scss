@@ -12,7 +12,7 @@
             align-items: center;
             gap: 20px;
             &_titulo{
-                font-size: 16px;
+                font-size: 20px;
                 font-weight: 600;
                 line-height: 20px;          
             }
@@ -20,6 +20,7 @@
                 font-size: 15px;
                 font-weight: 500;
                 text-transform: uppercase;
+                margin-bottom: 10px;
                 &_wrp{
                     height: 20px;
                     width: 100%;
@@ -94,7 +95,7 @@ a{
             a{
                 margin-bottom: 0;
                 max-width: 200px;
-                height: 44px;
+                height: 40px;
                 padding: 5px 20px;
                 margin-top: 15px;
             }

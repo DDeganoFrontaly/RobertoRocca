@@ -112,10 +112,12 @@
         justify-content: center;
         align-items: center;
         width: calc( 100% - 20px);
-        height: 40px;
+        height: auto;
+        min-height: 40px;
         border-radius: 20px;
         margin: 0 auto 15px;
         background-color: #FFE7DB;
+        padding: 5px 10px;
     }
 }
 

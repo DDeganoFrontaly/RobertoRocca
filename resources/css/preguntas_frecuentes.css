@@ -431,6 +431,11 @@ button:active, button:focus {
   display: flex;
 }
 
+.header_sticky_izq_logo svg {
+  margin-top: 5px;
+  height: 24px;
+}
+
 .header_sticky_izq_logo svg #Trazado_8080 {
   fill: #FF6720;
 }

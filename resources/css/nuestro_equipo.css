@@ -431,6 +431,11 @@ button:active, button:focus {
   display: flex;
 }
 
+.header_sticky_izq_logo svg {
+  margin-top: 5px;
+  height: 24px;
+}
+
 .header_sticky_izq_logo svg #Trazado_8080 {
   fill: #FF6720;
 }
@@ -1695,10 +1700,8 @@ button:active, button:focus {
     bottom: 17px;
     top: auto;
     padding-right: 150px;
-    display: none;
   }
   .modulo4.cursos .swiper-button-next {
-    display: none;
     position: absolute;
     bottom: 3px;
     top: auto;
@@ -1717,7 +1720,6 @@ button:active, button:focus {
     background-color: #0072CE;
   }
   .modulo4.cursos .swiper-button-prev {
-    display: none;
     position: absolute;
     bottom: 3px;
     top: auto;
@@ -1733,7 +1735,7 @@ button:active, button:focus {
     background-color: #0072CE;
   }
   .modulo4.cursos .swiper-wrapper {
-    padding: 0 0 50px !important;
+    padding: 0 0 150px !important;
   }
   /*Moudlo articulos nota*/
   .modulo_articulos.nota .swiper-button-next {
@@ -2052,7 +2054,7 @@ button:active, button:focus {
     margin-top: 0;
   }
   .modulo1_txt_wrp h1 {
-    font-size: 44px;
+    font-size: 40px;
     color: white;
     font-weight: 600;
     margin-bottom: 10px;
@@ -2075,22 +2077,6 @@ button:active, button:focus {
   .modulo1_txt_wrp {
     max-width: 1250px;
     margin: 0 auto;
-  }
-}
-
-.modulo_perfil_del_educador {
-  width: 100%;
-  height: 600px;
-  padding: 50px 20px;
-  background-color: #F1F1F1;
-  margin-bottom: 70px;
-}
-
-@media only screen and (min-width: 1024px) {
-  .modulo_perfil_del_educador {
-    padding: 50px;
-    height: 750px;
-    margin-bottom: 100px;
   }
 }
 
@@ -2119,7 +2105,7 @@ button:active, button:focus {
 }
 
 .volanta_box_titulo {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 20px;
 }
@@ -2128,6 +2114,7 @@ button:active, button:focus {
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .volanta_box_volanta_wrp {
@@ -2207,7 +2194,7 @@ button:active, button:focus {
   .volanta_box a {
     margin-bottom: 0;
     max-width: 200px;
-    height: 44px;
+    height: 40px;
     padding: 5px 20px;
     margin-top: 15px;
   }
@@ -2268,7 +2255,7 @@ button:active, button:focus {
 .la_voz_de_los_protagonistas_unitario {
   background-color: #0072CE;
   max-width: 1250px;
-  margin: 0 auto 50px;
+  margin: 0px auto 70px;
 }
 
 .la_voz_de_los_protagonistas_unitario_wrp {
@@ -2588,7 +2575,7 @@ button:active, button:focus {
 
 .modulo4_card_info {
   z-index: 10;
-  padding: 0 30px;
+  padding: 0 17px;
   position: relative;
   height: 250px;
   border-bottom-left-radius: 8px;
@@ -3048,6 +3035,7 @@ button:active, button:focus {
   }
   .modulo4_card_info_title {
     font-size: 24px;
+    font-weight: 600;
   }
   .modulo4_card_info_txt {
     -webkit-line-clamp: 3;
@@ -3072,6 +3060,7 @@ button:active, button:focus {
     text-transform: uppercase;
     text-decoration: none;
     gap: 8px;
+    font-size: 14px;
   }
   .modulo4_card_info_ver_mas span {
     font-size: 24px;
@@ -3079,6 +3068,9 @@ button:active, button:focus {
   }
   .modulo4_card_info_ver_mas:hover {
     background-color: rgba(0, 0, 0, 0.2);
+  }
+  .escuelas_tecnicas .modulo4 {
+    padding: 0;
   }
   .modulo4.articulo {
     padding: 60px 0 40px;
@@ -3181,6 +3173,15 @@ button:active, button:focus {
 @media only screen and (min-width: 1024px) {
   .nuestro_equipo .padding_main {
     padding-top: 118px;
+  }
+  .nuestro_equipo .modulo1 {
+    margin-bottom: 0;
+  }
+  .nuestro_equipo .modulo4.profesionales {
+    margin-bottom: 0;
+  }
+  .nuestro_equipo .modulo4.profesionales.alternativo {
+    margin-bottom: 100px;
   }
 }
 /*# sourceMappingURL=nuestro_equipo.css.map */

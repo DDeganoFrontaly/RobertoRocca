@@ -431,6 +431,11 @@ button:active, button:focus {
   display: flex;
 }
 
+.header_sticky_izq_logo svg {
+  margin-top: 5px;
+  height: 24px;
+}
+
 .header_sticky_izq_logo svg #Trazado_8080 {
   fill: #FF6720;
 }
@@ -1372,7 +1377,9 @@ button:active, button:focus {
 
 @media only screen and (min-width: 1024px) {
   .tyc_wrp {
-    padding: 0 50px 70px;
+    padding: 0 50px 70px 0;
+    max-width: 800px;
+    margin: 0 0px 0px 50px;
   }
   .tyc_wrp h1 {
     font-size: 32px;
@@ -1382,8 +1389,6 @@ button:active, button:focus {
 @media only screen and (min-width: 1300px) {
   .tyc_wrp {
     padding: 0 0 70px;
-    max-width: 1250px;
-    margin: 0 auto;
   }
 }
 

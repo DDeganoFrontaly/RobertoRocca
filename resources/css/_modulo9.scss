@@ -137,17 +137,8 @@
             align-items: center;
             text-decoration: none;
             gap: 20px;
-            .modulo9_izq_txt_hover{
-                display: none;
-            }
             &:hover{
-                background-color: #0072CE;
-                .modulo9_izq_txt_hover{
-                    display: flex;
-                }
-                .modulo9_izq_txt_normal{
-                    display: none;
-                }
+                background-color: #d9311e;
             }
         }
     }

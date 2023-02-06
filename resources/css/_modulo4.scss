@@ -50,7 +50,7 @@
         }
         &_info{
             z-index: 10;
-            padding: 0 30px;
+            padding: 0 17px;
             position: relative;
             height: 250px;
             border-bottom-left-radius: 8px;
@@ -446,6 +446,7 @@
                 height: 280px;
                 &_title{
                    font-size: 24px; 
+                   font-weight: 600;
                 }
                 &_txt{
                     -webkit-line-clamp:3;
@@ -464,6 +465,7 @@
                     text-transform: uppercase;
                     text-decoration: none;
                     gap: 8px;
+                    font-size: 14px;
                     span{
                         font-size: 24px;
                         margin-top: -5px;
@@ -474,6 +476,10 @@
                 }
             }
         }
+    }
+
+    .escuelas_tecnicas .modulo4{
+        padding: 0;
     }
 
     .modulo4.articulo{

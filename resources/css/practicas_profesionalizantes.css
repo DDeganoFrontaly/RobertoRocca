@@ -431,6 +431,11 @@ button:active, button:focus {
   display: flex;
 }
 
+.header_sticky_izq_logo svg {
+  margin-top: 5px;
+  height: 24px;
+}
+
 .header_sticky_izq_logo svg #Trazado_8080 {
   fill: #FF6720;
 }
@@ -1214,7 +1219,7 @@ button:active, button:focus {
     margin-top: 0;
   }
   .modulo1_txt_wrp h1 {
-    font-size: 44px;
+    font-size: 40px;
     color: white;
     font-weight: 600;
     margin-bottom: 10px;
@@ -1297,7 +1302,7 @@ button:active, button:focus {
 
 .modulo4_card_info {
   z-index: 10;
-  padding: 0 30px;
+  padding: 0 17px;
   position: relative;
   height: 250px;
   border-bottom-left-radius: 8px;
@@ -1757,6 +1762,7 @@ button:active, button:focus {
   }
   .modulo4_card_info_title {
     font-size: 24px;
+    font-weight: 600;
   }
   .modulo4_card_info_txt {
     -webkit-line-clamp: 3;
@@ -1781,6 +1787,7 @@ button:active, button:focus {
     text-transform: uppercase;
     text-decoration: none;
     gap: 8px;
+    font-size: 14px;
   }
   .modulo4_card_info_ver_mas span {
     font-size: 24px;
@@ -1788,6 +1795,9 @@ button:active, button:focus {
   }
   .modulo4_card_info_ver_mas:hover {
     background-color: rgba(0, 0, 0, 0.2);
+  }
+  .escuelas_tecnicas .modulo4 {
+    padding: 0;
   }
   .modulo4.articulo {
     padding: 60px 0 40px;
@@ -1965,7 +1975,8 @@ button:active, button:focus {
 
 .modulo7_info a {
   width: 220px;
-  height: 50px;
+  height: 40px;
+  font-weight: 500;
   border: 1px solid #0072CE;
   border-radius: 25px;
   display: -webkit-box;
@@ -2089,9 +2100,13 @@ button:active, button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 50px 30px;
+  gap: 30px 30px;
   margin-top: 30px;
-  overflow: scroll;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .modulo3_flex::-webkit-scrollbar {
@@ -2176,7 +2191,7 @@ button:active, button:focus {
 }
 
 .volanta_box_titulo {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 20px;
 }
@@ -2185,6 +2200,7 @@ button:active, button:focus {
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .volanta_box_volanta_wrp {
@@ -2264,7 +2280,7 @@ button:active, button:focus {
   .volanta_box a {
     margin-bottom: 0;
     max-width: 200px;
-    height: 44px;
+    height: 40px;
     padding: 5px 20px;
     margin-top: 15px;
   }

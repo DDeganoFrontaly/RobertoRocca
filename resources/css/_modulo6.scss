@@ -55,6 +55,7 @@
 }
 
 .modulo6.alternativo{
+    margin-bottom: 70px;
     .modulo6_izq{
         background-color: #FF6720;
     }
@@ -100,6 +101,9 @@
         &_der{
             border-radius: 0px 10px 10px 0;
             padding: 30px 70px;
+        }
+        &.alternativo{
+            margin-bottom: 100px;
         }
 
     }

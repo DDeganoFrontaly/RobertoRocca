@@ -515,6 +515,11 @@ button:active, button:focus {
   display: flex;
 }
 
+.header_sticky_izq_logo svg {
+  margin-top: 5px;
+  height: 24px;
+}
+
 .header_sticky_izq_logo svg #Trazado_8080 {
   fill: #FF6720;
 }
@@ -1497,7 +1502,7 @@ button:active, button:focus {
   .modulo_1_txt_titulo {
     max-width: 770px;
     margin-top: 0;
-    font-size: 44px;
+    font-size: 40px;
     line-height: 48px;
     margin-bottom: 10px;
     font-weight: 600;
@@ -1806,8 +1811,9 @@ button:active, button:focus {
   }
   .especialidades_info_mas_info {
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     left: 30px;
+    font-size: 14px;
   }
   .especialidades_2 {
     position: relative;
@@ -1856,8 +1862,9 @@ button:active, button:focus {
   }
   .especialidades_2_info_mas_info {
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     left: 30px;
+    font-size: 14px;
   }
   .modulo_especialidades_conjunto {
     margin-bottom: 100px;
@@ -2297,7 +2304,7 @@ button:active, button:focus {
 .la_voz_de_los_protagonistas_unitario {
   background-color: #0072CE;
   max-width: 1250px;
-  margin: 0 auto 50px;
+  margin: 0px auto 70px;
 }
 
 .la_voz_de_los_protagonistas_unitario_wrp {
@@ -2585,7 +2592,7 @@ button:active, button:focus {
 }
 
 .volanta_box_titulo {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 20px;
 }
@@ -2594,6 +2601,7 @@ button:active, button:focus {
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .volanta_box_volanta_wrp {
@@ -2673,7 +2681,7 @@ button:active, button:focus {
   .volanta_box a {
     margin-bottom: 0;
     max-width: 200px;
-    height: 44px;
+    height: 40px;
     padding: 5px 20px;
     margin-top: 15px;
   }
@@ -3185,10 +3193,8 @@ button:active, button:focus {
     bottom: 17px;
     top: auto;
     padding-right: 150px;
-    display: none;
   }
   .modulo4.cursos .swiper-button-next {
-    display: none;
     position: absolute;
     bottom: 3px;
     top: auto;
@@ -3207,7 +3213,6 @@ button:active, button:focus {
     background-color: #0072CE;
   }
   .modulo4.cursos .swiper-button-prev {
-    display: none;
     position: absolute;
     bottom: 3px;
     top: auto;
@@ -3223,7 +3228,7 @@ button:active, button:focus {
     background-color: #0072CE;
   }
   .modulo4.cursos .swiper-wrapper {
-    padding: 0 0 50px !important;
+    padding: 0 0 150px !important;
   }
   /*Moudlo articulos nota*/
   .modulo_articulos.nota .swiper-button-next {
@@ -4101,6 +4106,20 @@ button:active, button:focus {
     height: auto;
     display: block;
     top: 39px;
+  }
+}
+
+.ultimas_novedades {
+  width: 100%;
+  height: 600px;
+  background-color: #F1F1F1;
+  padding: 80px 50px;
+  margin-bottom: 70px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .ultimas_novedades {
+    margin-bottom: 100px;
   }
 }
 /*# sourceMappingURL=index.css.map */

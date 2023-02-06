@@ -37,7 +37,9 @@
         }
         &_puntos{
             &_punto{
-                margin-bottom: 40px;
+                border-bottom: 1px solid #F2F2F2;
+                padding-bottom: 20px;
+                margin-bottom: 30px;
                 display: flex;
                 &_dec{
                     background-color: #FF6720;
@@ -110,15 +112,14 @@
                 margin-bottom: 28px;
             }
             p{
-                font-size: 20px;
                 line-height: 28px;
                 margin-bottom: 15px;
 
             }
             &_puntos{
                 &_punto{
+                    padding-bottom: 0;
                     align-items: flex-start;
-                    border-bottom: 1px solid #F2F2F2;
                     margin-bottom: 30px;
                     &_dec{
                         width: 12px;

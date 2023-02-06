@@ -20,9 +20,10 @@
     }
     &_flex{
         display: flex;
-        gap: 50px 30px;
+        gap: 30px 30px;
         margin-top: 30px;
-        overflow: scroll;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         &::-webkit-scrollbar{
             display: none;
         }

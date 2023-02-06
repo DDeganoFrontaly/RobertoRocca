@@ -25,7 +25,9 @@
     @media only screen and (min-width: 1024px){
         .tyc{
             &_wrp{
-                padding: 0 50px 70px;
+                padding: 0 50px 70px 0;
+                max-width: 800px;
+                margin: 0 0px 0px 50px;
                 h1{
                     font-size: 32px;
                 }
@@ -37,8 +39,6 @@
         .tyc{
             &_wrp{
                 padding: 0 0 70px;
-                max-width: 1250px;
-                margin: 0 auto;
             }
         }
     }

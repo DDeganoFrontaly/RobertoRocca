@@ -431,6 +431,11 @@ button:active, button:focus {
   display: flex;
 }
 
+.header_sticky_izq_logo svg {
+  margin-top: 5px;
+  height: 24px;
+}
+
 .header_sticky_izq_logo svg #Trazado_8080 {
   fill: #FF6720;
 }
@@ -1470,6 +1475,10 @@ button:active, button:focus {
   border-top: none;
 }
 
+.modulo6.alternativo {
+  margin-bottom: 70px;
+}
+
 .modulo6.alternativo .modulo6_izq {
   background-color: #FF6720;
 }
@@ -1518,6 +1527,9 @@ button:active, button:focus {
   .modulo6_der {
     border-radius: 0px 10px 10px 0;
     padding: 30px 70px;
+  }
+  .modulo6.alternativo {
+    margin-bottom: 100px;
   }
 }
 

@@ -431,6 +431,11 @@ button:active, button:focus {
   display: flex;
 }
 
+.header_sticky_izq_logo svg {
+  margin-top: 5px;
+  height: 24px;
+}
+
 .header_sticky_izq_logo svg #Trazado_8080 {
   fill: #FF6720;
 }
@@ -1477,7 +1482,7 @@ button:active, button:focus {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   width: 280px;
 }
 
@@ -2202,19 +2207,8 @@ button:active, button:focus {
     text-decoration: none;
     gap: 20px;
   }
-  .modulo9_izq_btn .modulo9_izq_txt_hover {
-    display: none;
-  }
   .modulo9_izq_btn:hover {
-    background-color: #0072CE;
-  }
-  .modulo9_izq_btn:hover .modulo9_izq_txt_hover {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .modulo9_izq_btn:hover .modulo9_izq_txt_normal {
-    display: none;
+    background-color: #d9311e;
   }
   .modulo9_der {
     width: 50%;
@@ -2287,7 +2281,7 @@ button:active, button:focus {
 
 .modulo4_card_info {
   z-index: 10;
-  padding: 0 30px;
+  padding: 0 17px;
   position: relative;
   height: 250px;
   border-bottom-left-radius: 8px;
@@ -2747,6 +2741,7 @@ button:active, button:focus {
   }
   .modulo4_card_info_title {
     font-size: 24px;
+    font-weight: 600;
   }
   .modulo4_card_info_txt {
     -webkit-line-clamp: 3;
@@ -2771,6 +2766,7 @@ button:active, button:focus {
     text-transform: uppercase;
     text-decoration: none;
     gap: 8px;
+    font-size: 14px;
   }
   .modulo4_card_info_ver_mas span {
     font-size: 24px;
@@ -2778,6 +2774,9 @@ button:active, button:focus {
   }
   .modulo4_card_info_ver_mas:hover {
     background-color: rgba(0, 0, 0, 0.2);
+  }
+  .escuelas_tecnicas .modulo4 {
+    padding: 0;
   }
   .modulo4.articulo {
     padding: 60px 0 40px;
@@ -3224,10 +3223,8 @@ button:active, button:focus {
     bottom: 17px;
     top: auto;
     padding-right: 150px;
-    display: none;
   }
   .modulo4.cursos .swiper-button-next {
-    display: none;
     position: absolute;
     bottom: 3px;
     top: auto;
@@ -3246,7 +3243,6 @@ button:active, button:focus {
     background-color: #0072CE;
   }
   .modulo4.cursos .swiper-button-prev {
-    display: none;
     position: absolute;
     bottom: 3px;
     top: auto;
@@ -3262,7 +3258,7 @@ button:active, button:focus {
     background-color: #0072CE;
   }
   .modulo4.cursos .swiper-wrapper {
-    padding: 0 0 50px !important;
+    padding: 0 0 150px !important;
   }
   /*Moudlo articulos nota*/
   .modulo_articulos.nota .swiper-button-next {

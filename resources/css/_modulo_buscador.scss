@@ -10,19 +10,15 @@
         justify-content: space-between;
         align-items: center;
     }
-    &_input{
-        width: 110px;
-        height: 40px;
-        border-radius: 20px;
-        background-color: #86AAC5;
+    input{
         border: none;
-        padding-left: 45px;
-        color: white;
+        background-color: #D9E8F3;
+        font-size: 24px;
+        font-weight: 500;
+        color: black;
+        width: 200px;
         &::placeholder{
-            color: white;
-        }
-        &_wrp{
-            position: relative;
+            color: black;
         }
     }
     p{
@@ -31,10 +27,29 @@
             color: #F93822;
         }
     }
-    svg{
-        position: absolute;
-        left: 20px;
-        top: 30%;
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 5px 10px;
+        height: 40px;
+        background-color: #86AAC5;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+        flex-shrink: 0;
+        p{
+            font-size: 15px;
+            display: flex;
+            gap: 4px;
+            span{
+                display: none;
+            }
+        }
+        &:hover{
+           background-color: #0072CE;
+        }
     }
     &_error{
         position: relative;
@@ -64,8 +79,17 @@
 @media only screen and (min-width: 1024px){
     .modulo_buscador{
         padding: 0 50px;
-        &_input{
-            width: 180px;
+        input{
+            width: 250px;
+        }
+        a{
+            width: 173px;
+            p{
+                span{
+                    flex-shrink: 0;
+                    display: flex;
+                }
+            }
         }
         &_error{
             &_wrp{

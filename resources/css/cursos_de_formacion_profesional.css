@@ -431,6 +431,11 @@ button:active, button:focus {
   display: flex;
 }
 
+.header_sticky_izq_logo svg {
+  margin-top: 5px;
+  height: 24px;
+}
+
 .header_sticky_izq_logo svg #Trazado_8080 {
   fill: #FF6720;
 }
@@ -1434,7 +1439,7 @@ button:active, button:focus {
     margin-top: 0;
   }
   .modulo1_txt_wrp h1 {
-    font-size: 44px;
+    font-size: 40px;
     color: white;
     font-weight: 600;
     margin-bottom: 10px;
@@ -1593,7 +1598,7 @@ button:active, button:focus {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   width: 280px;
 }
 
