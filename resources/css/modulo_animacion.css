@@ -1,11 +1,13 @@
 .modulo_animacion {
   background-color: #f1f1f1;
   padding: 50px 0;
+  margin-bottom: 70px;
 }
 
 @media only screen and (min-width: 1024px) {
   .modulo_animacion {
     padding: 86px 0;
+    margin-bottom: 100px;
   }
 }
 /*# sourceMappingURL=modulo_animacion.css.map */
