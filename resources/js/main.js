@@ -5,14 +5,10 @@ import Swiper from './swiper.min.js';
 import swipersPersonalizados from './swipers_personalizados.js';
 import menu from './menu.js';
 import alert from './alert.js';
-import animation from './animation.js';
-import animationSchool from './animacion-red-de-escuelas-tecnicas.js';
 import video from './video.js';
 import faqs from './faqs.js';
 import contacto from './contacto.js';
 
-animation();
-animationSchool();
 header();
 alert();
 video();
@@ -21,4 +17,3 @@ cookie();
 contacto();
 swipersPersonalizados(Swiper);
 faqs();
-
