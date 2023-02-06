@@ -1670,6 +1670,7 @@ button:active, button:focus {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: rgba(255, 255, 255, 0.2);
+  font-size: 14px;
 }
 
 .especialidades_info_mas_info span {
@@ -1741,6 +1742,7 @@ button:active, button:focus {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: rgba(255, 255, 255, 0.2);
+  font-size: 14px;
 }
 
 .especialidades_2_info_mas_info span {
@@ -1813,7 +1815,6 @@ button:active, button:focus {
     position: absolute;
     bottom: 40px;
     left: 30px;
-    font-size: 14px;
   }
   .especialidades_2 {
     position: relative;
