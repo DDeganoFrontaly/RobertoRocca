@@ -2768,6 +2768,8 @@ button:active, button:focus {
   cursor: pointer;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  height: 32px;
+  width: 32px;
 }
 
 .modulo_preguntas_frecuentes_pregunta_principal_svg #Rectángulo_56305 {
