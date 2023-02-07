@@ -773,7 +773,7 @@ button:active, button:focus {
 }
 .menu_campus {
   width: 100%;
-  height: 50px;
+  height: 40px;
   border-radius: 25px;
   border: 1px solid #0072CE;
   display: flex;
@@ -1245,6 +1245,10 @@ button:active, button:focus {
   .modulo_preguntas_frecuentes.ficha .modulo_preguntas_frecuentes_preguntas {
     padding: 0;
   }
+}
+.preguntas_frecuentes_page_title {
+  font-weight: 500;
+  font-size: 20px;
 }
 .preguntas_frecuentes_page .padding_main {
   padding-top: 15px;

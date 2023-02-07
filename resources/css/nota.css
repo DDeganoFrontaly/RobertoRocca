@@ -773,7 +773,7 @@ button:active, button:focus {
 }
 .menu_campus {
   width: 100%;
-  height: 50px;
+  height: 40px;
   border-radius: 25px;
   border: 1px solid #0072CE;
   display: flex;
@@ -1199,7 +1199,7 @@ button:active, button:focus {
 .volanta_box_titulo {
   font-size: 20px;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 24px;
 }
 .volanta_box_volanta {
   font-size: 15px;

@@ -773,7 +773,7 @@ button:active, button:focus {
 }
 .menu_campus {
   width: 100%;
-  height: 50px;
+  height: 40px;
   border-radius: 25px;
   border: 1px solid #0072CE;
   display: flex;
@@ -1732,10 +1732,14 @@ button:active, button:focus {
   align-items: center;
   text-decoration: none;
   font-size: 17px;
+  color: #0072CE;
 }
 .modulo7_info a:hover {
   background-color: #0072CE;
   color: white;
+}
+.modulo7_info a:visited {
+  color: #0072CE;
 }
 
 @media only screen and (min-width: 1024px) {
