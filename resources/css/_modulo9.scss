@@ -18,7 +18,7 @@
         }
     }
     &_izq{
-        padding: 30px 20px 0;
+        padding: 15px 20px 0;
         h2{
             font-size: 32px;
             line-height: 36px;
@@ -85,6 +85,7 @@
             margin: 0 auto 20px;
             text-decoration: none;
             gap: 20px;
+            font-weight: 500;
             .modulo9_izq_txt_hover{
                 display: none;
             }

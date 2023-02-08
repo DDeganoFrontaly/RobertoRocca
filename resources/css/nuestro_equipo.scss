@@ -12,6 +12,12 @@
     & .padding_main{
         padding-top: 99px;
     }
+    & .modulo4.profesionales{
+        margin-bottom: 0;
+        &.alternativo{
+            margin-bottom: 100px;
+        }
+    }
 
 }
 
@@ -23,12 +29,6 @@
         }
         & .modulo1{
             margin-bottom: 0;
-        }
-        & .modulo4.profesionales{
-            margin-bottom: 0;
-            &.alternativo{
-                margin-bottom: 100px;
-            }
         }
     }
 }

@@ -2462,11 +2462,10 @@ button:active, button:focus {
 }
 
 .modulo_cita_nota {
-  height: 300px;
   background-color: #0072CE;
-  border-radius: 4px;
   margin: 0 -20px 30px;
   padding: 60px 30px;
+  height: auto;
 }
 
 .modulo_cita_nota p {
@@ -2478,9 +2477,11 @@ button:active, button:focus {
 
 @media only screen and (min-width: 1024px) {
   .modulo_cita_nota {
+    height: 300px;
     width: 750px;
     margin-left: 75px;
     height: 215px;
+    border-radius: 4px;
   }
 }
 

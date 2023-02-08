@@ -3228,18 +3228,20 @@ button:active, button:focus {
   padding-top: 99px;
 }
 
+.nuestro_equipo .modulo4.profesionales {
+  margin-bottom: 0;
+}
+
+.nuestro_equipo .modulo4.profesionales.alternativo {
+  margin-bottom: 100px;
+}
+
 @media only screen and (min-width: 1024px) {
   .nuestro_equipo .padding_main {
     padding-top: 118px;
   }
   .nuestro_equipo .modulo1 {
     margin-bottom: 0;
-  }
-  .nuestro_equipo .modulo4.profesionales {
-    margin-bottom: 0;
-  }
-  .nuestro_equipo .modulo4.profesionales.alternativo {
-    margin-bottom: 100px;
   }
 }
 /*# sourceMappingURL=nuestro_equipo.css.map */

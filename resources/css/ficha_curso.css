@@ -2061,7 +2061,7 @@ button:active, button:focus {
 }
 
 .modulo9_izq {
-  padding: 30px 20px 0;
+  padding: 15px 20px 0;
 }
 
 .modulo9_izq h2 {
@@ -2150,6 +2150,7 @@ button:active, button:focus {
   margin: 0 auto 20px;
   text-decoration: none;
   gap: 20px;
+  font-weight: 500;
 }
 
 .modulo9_der_btn .modulo9_izq_txt_hover {
