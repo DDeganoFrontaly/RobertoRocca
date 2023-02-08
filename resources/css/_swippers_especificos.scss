@@ -22,7 +22,7 @@
 .modulo4{
 
     .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-        margin-top: 50px;
+        margin-top: 60px;
         height: fit-content;
     }
 
@@ -352,13 +352,13 @@
             padding: 0px 0 75px 50px;
         }
         .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-            bottom: 17px;
+            bottom: 38px;
             top: auto;
             padding-right: 150px;
         }
         .swiper-button-next{
             position: absolute;
-            bottom: 3px; 
+            bottom: 27px; 
             top: auto;
             right: 20px;
             left: inherit;
@@ -376,7 +376,7 @@
         }
         .swiper-button-prev{
             position: absolute;
-            bottom: 3px; 
+            bottom: 27px; 
             top: auto;
             right: 80px;
             left: inherit;
@@ -390,9 +390,60 @@
             }
         }
         .swiper-wrapper{
-            padding: 0 0 150px!important;
+            padding: 0 0 90px!important;
         }
         
+    }
+
+    .proceso_de_admision{
+        .modulo4.cursos{
+            padding-bottom: 30px;
+            .swiper-wrapper {
+                padding: 0px 0 75px 50px;
+            }
+            .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+                bottom: 14px;
+                top: auto;
+                padding-right: 150px;
+            }
+            .swiper-button-next{
+                position: absolute;
+                bottom: 0px; 
+                top: auto;
+                right: 20px;
+                left: inherit;
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+                border: 1px solid #D2D2D2;
+                &::after{
+                    height: 16px;
+                }
+                &:hover{
+                    color: white;
+                    background-color: #0072CE;
+                }
+            }
+            .swiper-button-prev{
+                position: absolute;
+                bottom: 0px; 
+                top: auto;
+                right: 80px;
+                left: inherit;
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+                border: 1px solid #D2D2D2;
+                &:hover{
+                    color: white;
+                    background-color: #0072CE;
+                }
+            }
+            .swiper-wrapper{
+                padding: 0 0 120px!important;
+            }
+            
+        }
     }
 
     /*Moudlo articulos nota*/

@@ -311,6 +311,7 @@ button:active, button:focus {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 .header_sticky_bottom {
   width: 100%;
@@ -598,8 +599,8 @@ button:active, button:focus {
     align-items: flex-start;
   }
   .header_sticky_izq_logo svg {
-    width: 150px;
-    height: 40px;
+    width: 195px;
+    height: 32px;
   }
   .header_sticky_izq_idioma {
     left: 0;

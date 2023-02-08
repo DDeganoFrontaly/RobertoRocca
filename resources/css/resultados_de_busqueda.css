@@ -311,6 +311,7 @@ button:active, button:focus {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 .header_sticky_bottom {
   width: 100%;
@@ -598,8 +599,8 @@ button:active, button:focus {
     align-items: flex-start;
   }
   .header_sticky_izq_logo svg {
-    width: 150px;
-    height: 40px;
+    width: 195px;
+    height: 32px;
   }
   .header_sticky_izq_idioma {
     left: 0;
@@ -1357,7 +1358,7 @@ button:active, button:focus {
   background-color: #F2F2F2;
   max-width: initial;
   margin-bottom: 50px;
-  padding: 50px 0;
+  padding: 50px 0 30px;
 }
 .modulo4.cursos .modulo4_top h2 {
   padding: 0;
@@ -1580,7 +1581,7 @@ button:active, button:focus {
 }
 .modulo_tarjetas_articulo_wrp {
   display: flex;
-  gap: 50px 20px;
+  gap: 25px 20px;
   flex-wrap: wrap;
   margin-bottom: 50px;
   justify-content: center;
@@ -1764,6 +1765,7 @@ button:active, button:focus {
   .modulo_tarjetas_articulo_wrp {
     margin-bottom: 80px;
     justify-content: flex-start;
+    gap: 50px 20px;
   }
   .modulo_tarjetas_articulo_bottom {
     width: 360px;

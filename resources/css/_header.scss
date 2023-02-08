@@ -171,6 +171,7 @@
                 display: flex;
                 width: 100%;
                 justify-content: space-between;
+                align-items: center;
             }
         }
         &_bottom{
@@ -474,8 +475,8 @@
             &_izq{
                 &_logo{
                     svg{
-                        width: 150px;
-                        height: 40px;
+                        width: 195px;
+                        height: 32px;
                     }
                 }
                 &_idioma{
