@@ -22,7 +22,7 @@
 .modulo4{
 
     .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-        margin-top: 60px;
+        margin-top: 30px;
         height: fit-content;
     }
 
@@ -48,6 +48,14 @@
 
 }
 
+.proceso_de_admision{
+    .modulo4{
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+            margin-top: 60px;
+            height: fit-content;
+        }
+    }
+}
 
 /* Modulo La voz de los protagonistas*/
 

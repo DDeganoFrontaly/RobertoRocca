@@ -9,6 +9,12 @@
     & .padding_main{
         padding-top: 55px;
     }
+    & .modulo_tarjetas{
+        margin-bottom: 0;
+        &_wrp{
+            padding-bottom: 70px;
+        }
+    }
 }
 
 @media only screen and (min-width: 1024px){
@@ -24,7 +30,7 @@
             margin-bottom: 0;
             &_wrp{
                 padding-top: 60px;
-                padding-bottom: 60px;
+                padding-bottom: 100px;
             }
         }
     }
